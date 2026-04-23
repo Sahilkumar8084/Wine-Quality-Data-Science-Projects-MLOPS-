@@ -1,1 +1,6 @@
-venv
+venv/
+logs/
+artifacts/
+*.pyc
+__pycache__/
+codesummary.json

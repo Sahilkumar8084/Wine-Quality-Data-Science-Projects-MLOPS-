@@ -1,5 +1,230 @@
+[24-04-2026 01:14:26 AM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 01:14:26 AM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 01:14:26 AM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 01:14:26 AM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 01:15:00 AM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 01:15:00 AM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 01:15:00 AM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 01:15:00 AM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 01:15:49 AM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 01:15:49 AM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 01:15:49 AM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 01:15:49 AM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 01:17:49 AM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 01:17:49 AM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 01:17:49 AM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 01:17:49 AM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 01:30:32 AM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 01:30:32 AM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 01:30:32 AM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 01:30:32 AM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 01:30:32 AM - helper - INFO - Created Directory of path : artifacts/data_ingestion]
+[24-04-2026 01:30:32 AM - 2702494464 - ERROR - Error downloading the file from https://github.com/shrikant-temburwar/Wine-Quality-Dataset/blob/0cca694d5b2d825bb297de5d8e85005e77962753/winequality-white.csv]
+[24-04-2026 01:33:38 AM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 01:33:38 AM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 01:33:38 AM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 01:33:38 AM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 01:33:38 AM - helper - INFO - Created Directory of path : artifacts/data_ingestion]
+[24-04-2026 01:33:42 AM - 2702494464 - INFO - artifacts/data_ingestion/data.zip download! with following info: 
+Date: Thu, 23 Apr 2026 20:03:43 GMT
+Content-Type: text/html; charset=utf-8
+Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With, Sec-Fetch-Site,Accept-Encoding, Accept, X-Requested-With
+x-repository-download: git clone https://github.com/shrikant-temburwar/Wine-Quality-Dataset.git
+x-raw-download: https://raw.githubusercontent.com/shrikant-temburwar/Wine-Quality-Dataset/0cca694d5b2d825bb297de5d8e85005e77962753/winequality-white.csv
+ETag: W/"4650d54597a0500d1965e4d87c286318"
+Cache-Control: max-age=0, private, must-revalidate
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: no-referrer-when-downgrade
+Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com github.githubassets.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net productionresultssa1.blob.core.windows.net productionresultssa2.blob.core.windows.net productionresultssa3.blob.core.windows.net productionresultssa4.blob.core.windows.net productionresultssa5.blob.core.windows.net productionresultssa6.blob.core.windows.net productionresultssa7.blob.core.windows.net productionresultssa8.blob.core.windows.net productionresultssa9.blob.core.windows.net productionresultssa10.blob.core.windows.net productionresultssa11.blob.core.windows.net productionresultssa12.blob.core.windows.net productionresultssa13.blob.core.windows.net productionresultssa14.blob.core.windows.net productionresultssa15.blob.core.windows.net productionresultssa16.blob.core.windows.net productionresultssa17.blob.core.windows.net productionresultssa18.blob.core.windows.net productionresultssa19.blob.core.windows.net github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com wss://alive-staging.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com release-assets.githubusercontent.com secured-user-images.githubusercontent.com user-images.githubusercontent.com private-user-images.githubusercontent.com opengraph.githubassets.com marketplace-screenshots.githubusercontent.com copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com secured-user-images.githubusercontent.com private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com github.githubassets.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/
+Server: github.com
+Accept-Ranges: bytes
+Set-Cookie: _gh_sess=bEBY%2FROzsm43tFOdP3jE3zB6hm%2FvLyjLxHFuaIfc6og2KGlfTVbfooa1ZM1b9TRIK27tq0Wg%2FWvPYxKSfhpruT0rAQsfHrL6SpJA0Hxg3PsHZL0rJ4NuCi1gcPUycVfoFoTa6aA%2Bfpt4TBd97dNB52cjawycCZa8Uw%2B8IdQ%2FYwirYzsW7kochfoC97m2jOmDBXbzjK5HMI2HVi43dLjrzMIMLuJAQsQR2dkKJpCEPDsCPcYmBTtHATj7H7jw0jXX%2B2PFEVJVGbj1aELBsbuURg%3D%3D--zbu11KMHnVjuMjzm--uxmjIdcyxfQiGnd%2Ba2QBzA%3D%3D; path=/; HttpOnly; secure; SameSite=Lax
+Set-Cookie: _octo=GH1.1.1401994316.1776974622; expires=Fri, 23 Apr 2027 20:03:42 GMT; domain=.github.com; path=/; secure; SameSite=Lax
+Set-Cookie: logged_in=no; expires=Fri, 23 Apr 2027 20:03:42 GMT; domain=.github.com; path=/; HttpOnly; secure; SameSite=Lax
+X-GitHub-Request-Id: DFD9:251B1B:30D7A23:37C4DC0:69EA7B1E
+connection: close
+Transfer-Encoding: chunked
 
-[22-04-2026 10:42:00 PM - __init__ - INFO - I ma in the __INIT__.py file me hu]
-[22-04-2026 10:42:00 PM - setup - INFO - I am in the Setup File]
-[22-04-2026 10:48:42 PM - setup - INFO - I am in the Setup File]
-[22-04-2026 10:49:06 PM - main - INFO - Workign Correctly...]
+]
+[24-04-2026 01:41:48 AM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 01:41:48 AM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 01:41:48 AM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 01:41:48 AM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 01:41:48 AM - helper - INFO - Created Directory of path : artifacts/data_ingestion]
+[24-04-2026 01:41:51 AM - 2702494464 - INFO - artifacts/data_ingestion/data.zip download! with following info: 
+Date: Thu, 23 Apr 2026 20:11:52 GMT
+Content-Type: text/html; charset=utf-8
+Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With, Sec-Fetch-Site,Accept-Encoding, Accept, X-Requested-With
+x-repository-download: git clone https://github.com/shrikant-temburwar/Wine-Quality-Dataset.git
+x-raw-download: https://raw.githubusercontent.com/shrikant-temburwar/Wine-Quality-Dataset/0cca694d5b2d825bb297de5d8e85005e77962753/winequality-white.csv
+ETag: W/"1f6c680ccc67ab68e2ba5074b7ab990b"
+Cache-Control: max-age=0, private, must-revalidate
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: no-referrer-when-downgrade
+Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com github.githubassets.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net productionresultssa1.blob.core.windows.net productionresultssa2.blob.core.windows.net productionresultssa3.blob.core.windows.net productionresultssa4.blob.core.windows.net productionresultssa5.blob.core.windows.net productionresultssa6.blob.core.windows.net productionresultssa7.blob.core.windows.net productionresultssa8.blob.core.windows.net productionresultssa9.blob.core.windows.net productionresultssa10.blob.core.windows.net productionresultssa11.blob.core.windows.net productionresultssa12.blob.core.windows.net productionresultssa13.blob.core.windows.net productionresultssa14.blob.core.windows.net productionresultssa15.blob.core.windows.net productionresultssa16.blob.core.windows.net productionresultssa17.blob.core.windows.net productionresultssa18.blob.core.windows.net productionresultssa19.blob.core.windows.net github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com wss://alive-staging.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com release-assets.githubusercontent.com secured-user-images.githubusercontent.com user-images.githubusercontent.com private-user-images.githubusercontent.com opengraph.githubassets.com marketplace-screenshots.githubusercontent.com copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com secured-user-images.githubusercontent.com private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com github.githubassets.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/
+Server: github.com
+Accept-Ranges: bytes
+Set-Cookie: _gh_sess=W0fFdO3a%2Bu0l9Qgq59zybHErTQFOg%2FGcrb41HxW7%2BhwTvyNfwaF1ZUeXdyjHIIIwMXLHl4nwNyudTiWrvBcAGOZ7daIr1AuP43isrSkKSkZgTih6UTXpwSI2oGPVNkkzZ9%2BlbyvbqcXyfblhr77gsevJ54ptw%2Fy59wKFnbYKXlYB6YhykzgqFUSgaaoI%2BNMapKqMOI8bWpHKYJum6gNQ6ixRONDQa%2FIB5tI5%2FN92zokpGOLJ%2BObD6qKzRR4OtYQY2pYvex%2Ba0PwGw3cY01fUhQ%3D%3D--BI5WXUIbQaHWgrPX--MF44BnKiKIhZ0e9eqwMlpg%3D%3D; path=/; HttpOnly; secure; SameSite=Lax
+Set-Cookie: _octo=GH1.1.1929116130.1776975112; expires=Fri, 23 Apr 2027 20:11:52 GMT; domain=.github.com; path=/; secure; SameSite=Lax
+Set-Cookie: logged_in=no; expires=Fri, 23 Apr 2027 20:11:52 GMT; domain=.github.com; path=/; HttpOnly; secure; SameSite=Lax
+X-GitHub-Request-Id: E87C:CA9E6:30FA80A:37EC67E:69EA7D07
+connection: close
+Transfer-Encoding: chunked
+
+]
+[24-04-2026 01:45:07 AM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 01:45:07 AM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 01:45:07 AM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 01:45:07 AM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 01:45:07 AM - helper - INFO - Created Directory of path : artifacts/data_ingestion]
+[24-04-2026 01:45:09 AM - 2702494464 - INFO - artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 264426
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: text/plain; charset=utf-8
+ETag: "9a924888464fdcd2f774fd1d2e6f01946afefdebfff9b88fc2f6045920f1a81b"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F994:25194C:37953B:83C672:69EA7DCD
+Accept-Ranges: bytes
+Date: Thu, 23 Apr 2026 20:15:11 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom-vanm7210076-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1776975311.202656,VS0,VE277
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: d1d96fb3f29bfef5c669856a031379da1a7174b8
+Expires: Thu, 23 Apr 2026 20:20:11 GMT
+Source-Age: 0
+
+]
+[24-04-2026 01:46:38 AM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 01:46:38 AM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 01:46:38 AM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 01:46:38 AM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 01:46:38 AM - helper - INFO - Created Directory of path : artifacts/data_ingestion]
+[24-04-2026 01:46:39 AM - 2702494464 - INFO - artifacts/data_ingestion/data.csv download! with following info: 
+Connection: close
+Content-Length: 264426
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: text/plain; charset=utf-8
+ETag: "9a924888464fdcd2f774fd1d2e6f01946afefdebfff9b88fc2f6045920f1a81b"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F994:25194C:37953B:83C672:69EA7DCD
+Accept-Ranges: bytes
+Date: Thu, 23 Apr 2026 20:16:41 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom-vanm7210071-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1776975402.689737,VS0,VE1
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 329660ee5c990a2ad86196a4aaf6a1b762de111f
+Expires: Thu, 23 Apr 2026 20:21:41 GMT
+Source-Age: 90
+
+]
+[24-04-2026 01:50:14 AM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 01:50:14 AM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 01:50:14 AM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 01:50:14 AM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 01:50:14 AM - helper - INFO - Created Directory of path : artifacts/data_ingestion]
+[24-04-2026 01:50:14 AM - 2702494464 - INFO - File already exists with size: 264426 bytes]
+[24-04-2026 01:50:14 AM - 921969574 - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[24-04-2026 02:29:01 AM - main - INFO - >>>>>> stage Data Ingestion stage started <<<<<<]
+[24-04-2026 02:29:01 AM - main - ERROR - 'DataIngestionTrainingPipeline' object has no attribute 'main']
+Traceback (most recent call last):
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\main.py", line 11, in <module>
+    obj.main() # .main() call karna mat bhulna jo humne pipeline mein banaya hai
+AttributeError: 'DataIngestionTrainingPipeline' object has no attribute 'main'
+[24-04-2026 02:31:35 AM - main - INFO - >>>>>> stage Data Ingestion stage started <<<<<<]
+[24-04-2026 02:31:35 AM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 02:31:35 AM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 02:31:35 AM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 02:31:35 AM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 02:31:35 AM - helper - INFO - Created Directory of path : artifacts/data_ingestion]
+[24-04-2026 02:31:36 AM - data_ingestion_components - INFO - artifacts/data_ingestion/data.csv download! with following info: 
+Connection: close
+Content-Length: 264426
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: text/plain; charset=utf-8
+ETag: "9a924888464fdcd2f774fd1d2e6f01946afefdebfff9b88fc2f6045920f1a81b"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F994:25194C:37953B:83C672:69EA7DCD
+Accept-Ranges: bytes
+Date: Thu, 23 Apr 2026 21:01:39 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom-vanm7210032-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1776978099.773204,VS0,VE247
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: d94b58e2add8bda38b3cafb5a1e5b74214d43805
+Expires: Thu, 23 Apr 2026 21:06:39 GMT
+Source-Age: 0
+
+]
+[24-04-2026 02:31:36 AM - main - INFO - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[24-04-2026 02:35:34 AM - main - INFO - >>>>>> stage Data Ingestion stage started <<<<<<]
+[24-04-2026 02:35:34 AM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 02:35:34 AM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 02:35:34 AM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 02:35:34 AM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 02:35:34 AM - helper - INFO - Created Directory of path : artifacts/data_ingestion]
+[24-04-2026 02:35:34 AM - data_ingestion_components - INFO - artifacts/data_ingestion/data.csv download! with following info: 
+Connection: close
+Content-Length: 264426
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: text/plain; charset=utf-8
+ETag: "9a924888464fdcd2f774fd1d2e6f01946afefdebfff9b88fc2f6045920f1a81b"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F994:25194C:37953B:83C672:69EA7DCD
+Accept-Ranges: bytes
+Date: Thu, 23 Apr 2026 21:05:37 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom-vanm7210037-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1776978337.304020,VS0,VE1
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 6b5ca29fdb2fab7987f7aba66c0722607a72dc21
+Expires: Thu, 23 Apr 2026 21:10:37 GMT
+Source-Age: 238
+
+]
+[24-04-2026 02:35:34 AM - data_ingestion_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[24-04-2026 02:35:34 AM - main - INFO - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]

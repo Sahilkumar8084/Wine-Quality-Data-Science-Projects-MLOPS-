@@ -14,7 +14,7 @@ logging.basicConfig(
     datefmt='%d-%m-%Y %I:%M:%S %p',
     
     handlers=[
-        logging.FileHandler(log_filepath),
+        logging.FileHandler(log_filepath,encoding='utf-8'),
         logging.StreamHandler(sys.stdout)
     ]
     

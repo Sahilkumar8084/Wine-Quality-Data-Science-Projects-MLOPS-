@@ -1,0 +1,362 @@
+{
+  "rootDirectory": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-",
+  "timestamp": "2026-04-23T17:22:29.762Z",
+  "files": [
+    {
+      "path": ".github\\workflows\\.gitkeep",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\.github\\workflows\\.gitkeep",
+      "name": ".gitkeep",
+      "extension": "",
+      "size": 0,
+      "created": "2026-04-22T16:12:12.660Z",
+      "modified": "2026-04-22T16:12:12.660Z",
+      "content": "",
+      "lines": 1,
+      "isText": false
+    },
+    {
+      "path": ".gitignore",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\.gitignore",
+      "name": ".gitignore",
+      "extension": "",
+      "size": 4,
+      "created": "2026-04-22T15:14:04.315Z",
+      "modified": "2026-04-22T15:14:11.746Z",
+      "content": "venv",
+      "lines": 1,
+      "isText": false
+    },
+    {
+      "path": "config\\config.yaml",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\config\\config.yaml",
+      "name": "config.yaml",
+      "extension": ".yaml",
+      "size": 0,
+      "created": "2026-04-22T16:12:12.674Z",
+      "modified": "2026-04-22T16:12:12.674Z",
+      "content": "",
+      "lines": 1,
+      "isText": true
+    },
+    {
+      "path": "Dockerfile",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\Dockerfile",
+      "name": "Dockerfile",
+      "extension": "",
+      "size": 0,
+      "created": "2026-04-22T16:12:12.676Z",
+      "modified": "2026-04-22T16:12:12.676Z",
+      "content": "",
+      "lines": 1,
+      "isText": false
+    },
+    {
+      "path": "main.py",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\main.py",
+      "name": "main.py",
+      "extension": ".py",
+      "size": 140,
+      "created": "2026-04-22T16:12:12.675Z",
+      "modified": "2026-04-22T17:03:14.910Z",
+      "content": "import logging\r\nfrom src.DATA_SCIENCE_Project import logger\r\n\r\n# logger = logging.getLogger(__name__)\r\n\r\nlogger.info(\"Workign Correctly...\")",
+      "lines": 6,
+      "isText": true
+    },
+    {
+      "path": "params.yaml",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\params.yaml",
+      "name": "params.yaml",
+      "extension": ".yaml",
+      "size": 0,
+      "created": "2026-04-22T16:12:12.674Z",
+      "modified": "2026-04-22T16:12:12.674Z",
+      "content": "",
+      "lines": 1,
+      "isText": true
+    },
+    {
+      "path": "requirements.txt",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\requirements.txt",
+      "name": "requirements.txt",
+      "extension": ".txt",
+      "size": 294,
+      "created": "2026-04-22T15:14:55.930Z",
+      "modified": "2026-04-22T19:06:02.692Z",
+      "content": "��p\u0000a\u0000n\u0000d\u0000a\u0000s\u0000\r\u0000\n\u0000m\u0000l\u0000f\u0000l\u0000o\u0000w\u0000\r\u0000\n\u0000n\u0000o\u0000t\u0000e\u0000b\u0000o\u0000o\u0000k\u0000\r\u0000\n\u0000n\u0000u\u0000m\u0000p\u0000y\u0000\r\u0000\n\u0000s\u0000c\u0000i\u0000k\u0000i\u0000t\u0000-\u0000l\u0000e\u0000a\u0000r\u0000n\u0000\r\u0000\n\u0000m\u0000a\u0000t\u0000p\u0000l\u0000o\u0000t\u0000l\u0000i\u0000b\u0000\r\u0000\n\u0000p\u0000y\u0000t\u0000h\u0000o\u0000n\u0000-\u0000b\u0000o\u0000x\u0000\r\u0000\n\u0000p\u0000y\u0000y\u0000a\u0000m\u0000l\u0000\r\u0000\n\u0000t\u0000q\u0000d\u0000m\u0000\r\u0000\n\u0000e\u0000n\u0000s\u0000u\u0000r\u0000e\u0000\r\u0000\n\u0000j\u0000o\u0000b\u0000l\u0000i\u0000b\u0000\r\u0000\n\u0000#\u0000 \u0000p\u0000i\u0000c\u0000k\u0000l\u0000e\u0000\r\u0000\n\u0000t\u0000y\u0000p\u0000e\u0000s\u0000-\u0000p\u0000y\u0000y\u0000a\u0000m\u0000l\u0000\r\u0000\n\u0000F\u0000l\u0000a\u0000s\u0000k\u0000\r\u0000\n\u0000#\u0000 \u0000F\u0000a\u0000l\u0000s\u0000k\u0000-\u0000C\u0000o\u0000r\u0000s\u0000\r\u0000\n\u0000",
+      "lines": 16,
+      "isText": true
+    },
+    {
+      "path": "research\\1_data_ingestion.ipynb",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\research\\1_data_ingestion.ipynb",
+      "name": "1_data_ingestion.ipynb",
+      "extension": ".ipynb",
+      "size": 1997,
+      "created": "2026-04-23T17:05:15.250Z",
+      "modified": "2026-04-23T17:08:13.045Z",
+      "content": "{\n \"cells\": [\n  {\n   \"cell_type\": \"code\",\n   \"execution_count\": 1,\n   \"id\": \"2c01be69\",\n   \"metadata\": {},\n   \"outputs\": [\n    {\n     \"name\": \"stdout\",\n     \"output_type\": \"stream\",\n     \"text\": [\n      \"lskfngskfg\\n\"\n     ]\n    }\n   ],\n   \"source\": [\n    \"print(\\\"lskfngskfg\\\")\"\n   ]\n  },\n  {\n   \"cell_type\": \"code\",\n   \"execution_count\": 2,\n   \"id\": \"83f48e26\",\n   \"metadata\": {},\n   \"outputs\": [],\n   \"source\": [\n    \"import os\"\n   ]\n  },\n  {\n   \"cell_type\": \"code\",\n   \"execution_count\": 3,\n   \"id\": \"6334ab25\",\n   \"metadata\": {},\n   \"outputs\": [\n    {\n     \"data\": {\n      \"text/plain\": [\n       \"'d:\\\\\\\\mlops\\\\\\\\Wine-Quality-Data-Science-Projects-MLOPS-\\\\\\\\research'\"\n      ]\n     },\n     \"execution_count\": 3,\n     \"metadata\": {},\n     \"output_type\": \"execute_result\"\n    }\n   ],\n   \"source\": [\n    \"%pwd\"\n   ]\n  },\n  {\n   \"cell_type\": \"code\",\n   \"execution_count\": null,\n   \"id\": \"5c2eb924\",\n   \"metadata\": {},\n   \"outputs\": [],\n   \"source\": [\n    \"import os\\n\",\n    \"os.chdir(\\\"../\\\")\\n\",\n    \"#Just went one step bcakword with this directory....\\n\"\n   ]\n  },\n  {\n   \"cell_type\": \"code\",\n   \"execution_count\": 6,\n   \"id\": \"8f9420fc\",\n   \"metadata\": {},\n   \"outputs\": [\n    {\n     \"data\": {\n      \"text/plain\": [\n       \"'d:\\\\\\\\mlops\\\\\\\\Wine-Quality-Data-Science-Projects-MLOPS-'\"\n      ]\n     },\n     \"execution_count\": 6,\n     \"metadata\": {},\n     \"output_type\": \"execute_result\"\n    }\n   ],\n   \"source\": [\n    \"%pwd\"\n   ]\n  },\n  {\n   \"cell_type\": \"code\",\n   \"execution_count\": null,\n   \"id\": \"52ba25df\",\n   \"metadata\": {},\n   \"outputs\": [],\n   \"source\": []\n  }\n ],\n \"metadata\": {\n  \"kernelspec\": {\n   \"display_name\": \"venv\",\n   \"language\": \"python\",\n   \"name\": \"python3\"\n  },\n  \"language_info\": {\n   \"codemirror_mode\": {\n    \"name\": \"ipython\",\n    \"version\": 3\n   },\n   \"file_extension\": \".py\",\n   \"mimetype\": \"text/x-python\",\n   \"name\": \"python\",\n   \"nbconvert_exporter\": \"python\",\n   \"pygments_lexer\": \"ipython3\",\n   \"version\": \"3.10.0\"\n  }\n },\n \"nbformat\": 4,\n \"nbformat_minor\": 5\n}\n",
+      "lines": 116,
+      "isText": false
+    },
+    {
+      "path": "research\\research.ipynb",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\research\\research.ipynb",
+      "name": "research.ipynb",
+      "extension": ".ipynb",
+      "size": 4652,
+      "created": "2026-04-22T16:12:12.677Z",
+      "modified": "2026-04-23T17:04:54.164Z",
+      "content": "{\n \"cells\": [\n  {\n   \"cell_type\": \"code\",\n   \"execution_count\": 1,\n   \"id\": \"25005fba\",\n   \"metadata\": {},\n   \"outputs\": [\n    {\n     \"name\": \"stdout\",\n     \"output_type\": \"stream\",\n     \"text\": [\n      \"sfgjdfg\\n\"\n     ]\n    }\n   ],\n   \"source\": [\n    \"print(\\\"sfgjdfg\\\")\"\n   ]\n  },\n  {\n   \"cell_type\": \"code\",\n   \"execution_count\": 2,\n   \"id\": \"efb4d07c\",\n   \"metadata\": {},\n   \"outputs\": [\n    {\n     \"name\": \"stdout\",\n     \"output_type\": \"stream\",\n     \"text\": [\n      \"lsjfngfdG\\n\"\n     ]\n    }\n   ],\n   \"source\": [\n    \"print(\\\"lsjfngfdG\\\")\"\n   ]\n  },\n  {\n   \"cell_type\": \"code\",\n   \"execution_count\": 6,\n   \"id\": \"a44a841d\",\n   \"metadata\": {},\n   \"outputs\": [],\n   \"source\": [\n    \"from ensure import ensure_annotations\"\n   ]\n  },\n  {\n   \"cell_type\": \"code\",\n   \"execution_count\": 16,\n   \"id\": \"414785c4\",\n   \"metadata\": {},\n   \"outputs\": [],\n   \"source\": [\n    \"@ensure_annotations \\n\",\n    \"def add(a:int,b:int):\\n\",\n    \"    return a+b\\n\"\n   ]\n  },\n  {\n   \"cell_type\": \"code\",\n   \"execution_count\": 17,\n   \"id\": \"bec0cba8\",\n   \"metadata\": {},\n   \"outputs\": [\n    {\n     \"data\": {\n      \"text/plain\": [\n       \"11\"\n      ]\n     },\n     \"execution_count\": 17,\n     \"metadata\": {},\n     \"output_type\": \"execute_result\"\n    }\n   ],\n   \"source\": [\n    \"add(5,6)\"\n   ]\n  },\n  {\n   \"cell_type\": \"code\",\n   \"execution_count\": 18,\n   \"id\": \"695dca7f\",\n   \"metadata\": {},\n   \"outputs\": [\n    {\n     \"ename\": \"EnsureError\",\n     \"evalue\": \"Argument a of type <class 'float'> to <function add at 0x000001C2078F75B0> does not match annotation type <class 'int'>\",\n     \"output_type\": \"error\",\n     \"traceback\": [\n      \"\\u001b[1;31m---------------------------------------------------------------------------\\u001b[0m\",\n      \"\\u001b[1;31mEnsureError\\u001b[0m                               Traceback (most recent call last)\",\n      \"Cell \\u001b[1;32mIn[18], line 1\\u001b[0m\\n\\u001b[1;32m----> 1\\u001b[0m \\u001b[43madd\\u001b[49m\\u001b[43m(\\u001b[49m\\u001b[38;5;241;43m5.6\\u001b[39;49m\\u001b[43m,\\u001b[49m\\u001b[38;5;241;43m1.2\\u001b[39;49m\\u001b[43m)\\u001b[49m\\n\",\n      \"File \\u001b[1;32md:\\\\mlops\\\\Wine-Quality-Data-Science-Projects-MLOPS-\\\\venv\\\\lib\\\\site-packages\\\\ensure\\\\main.py:833\\u001b[0m, in \\u001b[0;36mWrappedFunction.__call__\\u001b[1;34m(self, *args, **kwargs)\\u001b[0m\\n\\u001b[0;32m    831\\u001b[0m     \\u001b[38;5;28;01mif\\u001b[39;00m \\u001b[38;5;129;01mnot\\u001b[39;00m \\u001b[38;5;28misinstance\\u001b[39m(value, templ):\\n\\u001b[0;32m    832\\u001b[0m         msg \\u001b[38;5;241m=\\u001b[39m \\u001b[38;5;124m\\\"\\u001b[39m\\u001b[38;5;124mArgument \\u001b[39m\\u001b[38;5;132;01m{arg}\\u001b[39;00m\\u001b[38;5;124m of type \\u001b[39m\\u001b[38;5;132;01m{valt}\\u001b[39;00m\\u001b[38;5;124m to \\u001b[39m\\u001b[38;5;132;01m{f}\\u001b[39;00m\\u001b[38;5;124m \\u001b[39m\\u001b[38;5;124m\\\"\\u001b[39m \\u001b[38;5;124m\\\"\\u001b[39m\\u001b[38;5;124mdoes not match annotation type \\u001b[39m\\u001b[38;5;132;01m{t}\\u001b[39;00m\\u001b[38;5;124m\\\"\\u001b[39m\\n\\u001b[1;32m--> 833\\u001b[0m         \\u001b[38;5;28;01mraise\\u001b[39;00m EnsureError(msg\\u001b[38;5;241m.\\u001b[39mformat(arg\\u001b[38;5;241m=\\u001b[39marg, f\\u001b[38;5;241m=\\u001b[39m\\u001b[38;5;28mself\\u001b[39m\\u001b[38;5;241m.\\u001b[39mf, t\\u001b[38;5;241m=\\u001b[39mtempl, valt\\u001b[38;5;241m=\\u001b[39m\\u001b[38;5;28mtype\\u001b[39m(value)))\\n\\u001b[0;32m    835\\u001b[0m \\u001b[38;5;28;01mreturn\\u001b[39;00m \\u001b[38;5;28mself\\u001b[39m\\u001b[38;5;241m.\\u001b[39mf(\\u001b[38;5;241m*\\u001b[39margs, \\u001b[38;5;241m*\\u001b[39m\\u001b[38;5;241m*\\u001b[39mkwargs)\\n\",\n      \"\\u001b[1;31mEnsureError\\u001b[0m: Argument a of type <class 'float'> to <function add at 0x000001C2078F75B0> does not match annotation type <class 'int'>\"\n     ]\n    }\n   ],\n   \"source\": [\n    \"add(5.6,1.2)\"\n   ]\n  },\n  {\n   \"cell_type\": \"markdown\",\n   \"id\": \"ddbdd294\",\n   \"metadata\": {},\n   \"source\": [\n    \"### <@Ensure_annotations> Iska use isliye kiya hai taaki agar function mein galat data type pass ho, toh ye turant error de de (Runtime Validation).\"\n   ]\n  },\n  {\n   \"cell_type\": \"markdown\",\n   \"id\": \"6095bd80\",\n   \"metadata\": {},\n   \"source\": []\n  },\n  {\n   \"cell_type\": \"code\",\n   \"execution_count\": null,\n   \"id\": \"893e3de4\",\n   \"metadata\": {},\n   \"outputs\": [],\n   \"source\": []\n  }\n ],\n \"metadata\": {\n  \"kernelspec\": {\n   \"display_name\": \"venv\",\n   \"language\": \"python\",\n   \"name\": \"python3\"\n  },\n  \"language_info\": {\n   \"codemirror_mode\": {\n    \"name\": \"ipython\",\n    \"version\": 3\n   },\n   \"file_extension\": \".py\",\n   \"mimetype\": \"text/x-python\",\n   \"name\": \"python\",\n   \"nbconvert_exporter\": \"python\",\n   \"pygments_lexer\": \"ipython3\",\n   \"version\": \"3.10.0\"\n  }\n },\n \"nbformat\": 4,\n \"nbformat_minor\": 5\n}\n",
+      "lines": 150,
+      "isText": false
+    },
+    {
+      "path": "schema.yaml",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\schema.yaml",
+      "name": "schema.yaml",
+      "extension": ".yaml",
+      "size": 0,
+      "created": "2026-04-22T16:12:12.675Z",
+      "modified": "2026-04-22T16:12:12.675Z",
+      "content": "",
+      "lines": 1,
+      "isText": true
+    },
+    {
+      "path": "setup.py",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\setup.py",
+      "name": "setup.py",
+      "extension": ".py",
+      "size": 84,
+      "created": "2026-04-22T16:12:12.676Z",
+      "modified": "2026-04-22T17:08:00.046Z",
+      "content": "from src.DATA_SCIENCE_Project import logger\r\n\r\nlogger.info(\"I am in the Setup File\")",
+      "lines": 3,
+      "isText": true
+    },
+    {
+      "path": "src\\DATA_SCIENCE_Project\\__init__.py",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\src\\DATA_SCIENCE_Project\\__init__.py",
+      "name": "__init__.py",
+      "extension": ".py",
+      "size": 644,
+      "created": "2026-04-22T16:12:12.663Z",
+      "modified": "2026-04-22T17:19:46.044Z",
+      "content": "import os \r\nimport sys\r\nimport logging\r\n\r\nlogging_str=\"[%(asctime)s - %(module)s - %(levelname)s - %(message)s]\"\r\nlog_dir = \"logs\"\r\nlog_filepath = os.path.join(log_dir,\"logging.log\")\r\nos.makedirs(log_dir,exist_ok=True)\r\n\r\nlogging.basicConfig(\r\n    level=logging.INFO,\r\n    format=logging_str,\r\n    \r\n    datefmt='%d-%m-%Y %I:%M:%S %p',\r\n    \r\n    handlers=[\r\n        logging.FileHandler(log_filepath),\r\n        logging.StreamHandler(sys.stdout)\r\n    ]\r\n    \r\n)\r\n\r\nlogger = logging.getLogger() #yaha pe Logger aek objet ban gaya hia jo baas call karnge aur bass kam karna xhalu hoo jayega\r\n\r\n\r\n# logger.info(\"I ma in the __INIT__.py file me hu\")",
+      "lines": 26,
+      "isText": true
+    },
+    {
+      "path": "src\\DATA_SCIENCE_Project\\components\\__init__.py",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\src\\DATA_SCIENCE_Project\\components\\__init__.py",
+      "name": "__init__.py",
+      "extension": ".py",
+      "size": 0,
+      "created": "2026-04-22T16:12:12.664Z",
+      "modified": "2026-04-22T16:12:12.664Z",
+      "content": "",
+      "lines": 1,
+      "isText": true
+    },
+    {
+      "path": "src\\DATA_SCIENCE_Project\\config\\__init__.py",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\src\\DATA_SCIENCE_Project\\config\\__init__.py",
+      "name": "__init__.py",
+      "extension": ".py",
+      "size": 0,
+      "created": "2026-04-22T16:12:12.667Z",
+      "modified": "2026-04-22T16:12:12.667Z",
+      "content": "",
+      "lines": 1,
+      "isText": true
+    },
+    {
+      "path": "src\\DATA_SCIENCE_Project\\config\\configuration.py",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\src\\DATA_SCIENCE_Project\\config\\configuration.py",
+      "name": "configuration.py",
+      "extension": ".py",
+      "size": 0,
+      "created": "2026-04-22T16:12:12.667Z",
+      "modified": "2026-04-22T16:12:12.667Z",
+      "content": "",
+      "lines": 1,
+      "isText": true
+    },
+    {
+      "path": "src\\DATA_SCIENCE_Project\\constants\\__init__.py",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\src\\DATA_SCIENCE_Project\\constants\\__init__.py",
+      "name": "__init__.py",
+      "extension": ".py",
+      "size": 0,
+      "created": "2026-04-22T16:12:12.672Z",
+      "modified": "2026-04-22T16:12:12.672Z",
+      "content": "",
+      "lines": 1,
+      "isText": true
+    },
+    {
+      "path": "src\\DATA_SCIENCE_Project\\entity\\__init__.py",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\src\\DATA_SCIENCE_Project\\entity\\__init__.py",
+      "name": "__init__.py",
+      "extension": ".py",
+      "size": 0,
+      "created": "2026-04-22T16:12:12.669Z",
+      "modified": "2026-04-22T16:12:12.669Z",
+      "content": "",
+      "lines": 1,
+      "isText": true
+    },
+    {
+      "path": "src\\DATA_SCIENCE_Project\\entity\\config_entity.py",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\src\\DATA_SCIENCE_Project\\entity\\config_entity.py",
+      "name": "config_entity.py",
+      "extension": ".py",
+      "size": 0,
+      "created": "2026-04-22T16:12:12.671Z",
+      "modified": "2026-04-22T16:12:12.671Z",
+      "content": "",
+      "lines": 1,
+      "isText": true
+    },
+    {
+      "path": "src\\DATA_SCIENCE_Project\\pipeline\\__init__.py",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\src\\DATA_SCIENCE_Project\\pipeline\\__init__.py",
+      "name": "__init__.py",
+      "extension": ".py",
+      "size": 0,
+      "created": "2026-04-22T16:12:12.668Z",
+      "modified": "2026-04-22T16:12:12.668Z",
+      "content": "",
+      "lines": 1,
+      "isText": true
+    },
+    {
+      "path": "src\\DATA_SCIENCE_Project\\utils\\__init__.py",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\src\\DATA_SCIENCE_Project\\utils\\__init__.py",
+      "name": "__init__.py",
+      "extension": ".py",
+      "size": 0,
+      "created": "2026-04-22T16:12:12.665Z",
+      "modified": "2026-04-22T16:12:12.665Z",
+      "content": "",
+      "lines": 1,
+      "isText": true
+    },
+    {
+      "path": "src\\DATA_SCIENCE_Project\\utils\\helper.py",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\src\\DATA_SCIENCE_Project\\utils\\helper.py",
+      "name": "helper.py",
+      "extension": ".py",
+      "size": 2442,
+      "created": "2026-04-22T16:12:12.666Z",
+      "modified": "2026-04-23T16:43:56.116Z",
+      "content": "import os\r\nimport yaml\r\nfrom src.DATA_SCIENCE_Project import logger\r\nimport json\r\nimport joblib\r\nfrom ensure import ensure_annotations\r\nfrom box import ConfigBox\r\nfrom pathlib import Path\r\nfrom typing import Any\r\nfrom box.exceptions import BoxValueError\r\n\r\n\r\n# Iska use isliye kiya hai taaki agar function mein galat data type pass ho, toh ye turant error de de (Runtime Validation).\r\n@ensure_annotations\r\ndef read_yaml(path_to_yaml:Path)->ConfigBox:\r\n    \r\n    try:\r\n        with open(path_to_yaml) as f:\r\n            content = yaml.safe_load(f)\r\n            logger.info(f\"yaml file: {path_to_yaml} Loaded Sucessfully\")\r\n            return ConfigBox(content)\r\n    except BoxValueError:\r\n        raise ValueError(\"Yaml File is Empty\")\r\n    except Exception as e:\r\n        raise e\r\n            \r\n@ensure_annotations\r\ndef create_directories(path_to_directories: list,verbose=True):\r\n    for path in path_to_directories:\r\n        os.makedirs(path,exist_ok=True)\r\n        \r\n        if verbose:\r\n            logger.info(f\"Created Directory of path : {path}\")\r\n\r\n@ensure_annotations\r\ndef save_json(path:Path,data:dict)->ConfigBox:\r\n    try:\r\n        \r\n        with open(path,'w') as f:\r\n            json.dump(data,f,indent=4)\r\n        logger.info(f\"Json File Saved to the path: {path}\")      \r\n\r\n    except Exception as e:\r\n        logger.error(f\"unable to Save the Json File of path: {path}\")\r\n        raise e\r\n        \r\n\r\n@ensure_annotations\r\ndef laod_json(path:Path)->ConfigBox:\r\n    try:\r\n        \r\n        with open(path) as f:\r\n            content = json.load(f)\r\n            \r\n        logger.info(f\"JSON Loaded Sucessfully ✅ Path: {path}\")\r\n        return ConfigBox(content)\r\n    except Exception as e:\r\n        logger.error(f\"unable to LOAD the Json File ❌ of path: {path}\")\r\n        raise e\r\n    \r\n@ensure_annotations\r\ndef save_model(data:Any,path:Path):\r\n    try:\r\n        \r\n        joblib.dump(value=data,filename=path)\r\n        logger.info(f\"Model Saved Sucessfully ✅ Path: {path}\")\r\n        \r\n    except Exception as e:\r\n        logger.error(f\"unable to SAVE the MODEL❌ path: {path}\")\r\n        raise e\r\n    \r\n@ensure_annotations\r\ndef Load_model(path:Path)->Any:\r\n    try:\r\n        \r\n        data  = joblib.load(path)\r\n        logger.info(\"Binary Model File Loaded From: {path} Sucessfully ✅\")\r\n        return data\r\n    except Exception as e:\r\n        logger.error(f\"unable to Load the MODEL❌ path: {path}\")\r\n        raise e",
+      "lines": 81,
+      "isText": true
+    },
+    {
+      "path": "template.py",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\template.py",
+      "name": "template.py",
+      "extension": ".py",
+      "size": 1903,
+      "created": "2026-04-22T15:28:38.445Z",
+      "modified": "2026-04-22T16:19:54.758Z",
+      "content": "# This will make the Template of he project strucutre \r\n# we will write the Automated Script that will help to crate the automatic  project strucutere \r\n\r\n\r\nimport os\r\nfrom pathlib import Path\r\nimport logging\r\n\r\nlogging.basicConfig(\r\n    level=logging.INFO, # Level set karta hai (DEBUG, INFO, WARNING, ERROR, CRITICAL)\r\n    format='%(asctime)s - %(levelname)s - %(message)s', # Time, Level aur Message ka format\r\n    datefmt='%d-%m-%Y %I:%M:%S %p' # Date aur Time ka dikhne wala format\r\n)\r\n\r\nproject_name = \"DATA_SCIENCE_Project\"\r\n\r\nlist_of_files=[\r\n    \r\n    \".github/workflows/.gitkeep\",\r\n    f\"src/{project_name}/__init__.py\",\r\n    f\"src/{project_name}/components/__init__.py\",\r\n    f\"src/{project_name}/utils/__init__.py\",\r\n    f\"src/{project_name}/utils/helper.py\",\r\n    f\"src/{project_name}/config/__init__.py\",\r\n    f\"src/{project_name}/config/configuration.py\",\r\n    f\"src/{project_name}/pipeline/__init__.py\",\r\n    f\"src/{project_name}/entity/__init__.py\",\r\n    f\"src/{project_name}/entity/config_entity.py\",\r\n    f\"src/{project_name}/constants/__init__.py\",\r\n    \"config/config.yaml\",\r\n    \"params.yaml\",\r\n    \"schema.yaml\",\r\n    \"main.py\",\r\n    \"Dockerfile\",\r\n    \"setup.py\",\r\n    \"research/research.ipynb\",\r\n    \"templates/index.html\"\r\n    \r\n    \r\n]\r\n\r\nfor filepath in list_of_files:\r\n    filepath=Path(filepath)\r\n    filedir,filename = os.path.split(filepath)\r\n    \r\n    if filedir != \"\":\r\n        os.makedirs(filedir,exist_ok=True)\r\n        logging.info(f\"Creating Directory {filedir} for the file: {filename}\")\r\n    \r\n    ## Yeh line \"src/project_name/components/__init__.py\" naam ki file bana degi.   \r\n    if (not os.path.exists(filepath)) or (os.path.getsize(filepath)==0):\r\n        with open(filepath,'w') as f:\r\n            pass \r\n            logging.info(f\"Creating Empty File: {filepath}\")\r\n    else:\r\n        logging.info(f\"{filename} already exists\")\r\n        \r\n\r\n        \r\n    ",
+      "lines": 60,
+      "isText": true
+    },
+    {
+      "path": "templates\\index.html",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\templates\\index.html",
+      "name": "index.html",
+      "extension": ".html",
+      "size": 0,
+      "created": "2026-04-22T16:12:12.679Z",
+      "modified": "2026-04-22T16:12:12.679Z",
+      "content": "",
+      "lines": 1,
+      "isText": true
+    }
+  ],
+  "directories": [
+    {
+      "path": ".github",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\.github",
+      "name": ".github"
+    },
+    {
+      "path": ".github\\workflows",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\.github\\workflows",
+      "name": "workflows"
+    },
+    {
+      "path": "config",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\config",
+      "name": "config"
+    },
+    {
+      "path": "research",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\research",
+      "name": "research"
+    },
+    {
+      "path": "src",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\src",
+      "name": "src"
+    },
+    {
+      "path": "src\\DATA_SCIENCE_Project",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\src\\DATA_SCIENCE_Project",
+      "name": "DATA_SCIENCE_Project"
+    },
+    {
+      "path": "src\\DATA_SCIENCE_Project\\components",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\src\\DATA_SCIENCE_Project\\components",
+      "name": "components"
+    },
+    {
+      "path": "src\\DATA_SCIENCE_Project\\config",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\src\\DATA_SCIENCE_Project\\config",
+      "name": "config"
+    },
+    {
+      "path": "src\\DATA_SCIENCE_Project\\constants",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\src\\DATA_SCIENCE_Project\\constants",
+      "name": "constants"
+    },
+    {
+      "path": "src\\DATA_SCIENCE_Project\\entity",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\src\\DATA_SCIENCE_Project\\entity",
+      "name": "entity"
+    },
+    {
+      "path": "src\\DATA_SCIENCE_Project\\pipeline",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\src\\DATA_SCIENCE_Project\\pipeline",
+      "name": "pipeline"
+    },
+    {
+      "path": "src\\DATA_SCIENCE_Project\\utils",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\src\\DATA_SCIENCE_Project\\utils",
+      "name": "utils"
+    },
+    {
+      "path": "templates",
+      "absolutePath": "d:\\mlops\\Wine-Quality-Data-Science-Projects-MLOPS-\\templates",
+      "name": "templates"
+    }
+  ],
+  "summary": {
+    "totalFiles": 23,
+    "totalDirectories": 13,
+    "totalSize": 12160,
+    "fileTypes": {
+      "no-extension": 3,
+      ".yaml": 3,
+      ".py": 13,
+      ".txt": 1,
+      ".ipynb": 2,
+      ".html": 1
+    }
+  }
+}
