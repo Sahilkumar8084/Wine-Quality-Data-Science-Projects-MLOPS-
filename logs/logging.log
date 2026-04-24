@@ -372,3 +372,129 @@ x==========x]
 [24-04-2026 12:43:39 PM - main - INFO - >>>>>> stage Data Validation stage completed <<<<<<
 
 x==========x]
+[24-04-2026 06:15:38 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 06:15:38 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 06:15:38 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 06:15:38 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 06:15:38 PM - helper - INFO - Created Directory of path : artifacts/data_transformation]
+[24-04-2026 06:15:38 PM - 1399250647 - INFO - Splitted Data into Training and Test Data]
+[24-04-2026 06:15:38 PM - 1399250647 - INFO - Train Data Shape: (3673, 12)]
+[24-04-2026 06:15:38 PM - 1399250647 - INFO - Test Data Shape: (1225, 12)]
+[24-04-2026 06:15:38 PM - 1012448652 - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[24-04-2026 06:16:51 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 06:16:51 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 06:16:51 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 06:16:51 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 06:16:51 PM - helper - INFO - Created Directory of path : artifacts/data_transformation]
+[24-04-2026 06:16:51 PM - 834740496 - INFO - Splitted Data into Training and Test Data]
+[24-04-2026 06:16:51 PM - 834740496 - INFO - Train Data Shape: (3673, 12)]
+[24-04-2026 06:16:51 PM - 834740496 - INFO - Test Data Shape: (1225, 12)]
+[24-04-2026 06:16:52 PM - 1012448652 - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[24-04-2026 06:30:01 PM - main - INFO - >>>>>> stage Data Ingestion stage started <<<<<<]
+[24-04-2026 06:30:01 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 06:30:01 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 06:30:01 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 06:30:01 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 06:30:01 PM - helper - INFO - Created Directory of path : artifacts/data_ingestion]
+[24-04-2026 06:30:01 PM - data_ingestion_components - INFO - File already exists with size: 264426 bytes]
+[24-04-2026 06:30:01 PM - data_ingestion_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[24-04-2026 06:30:01 PM - main - INFO - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[24-04-2026 06:30:01 PM - main - INFO - >>>>>> stage Data Validation stage started <<<<<<]
+[24-04-2026 06:30:01 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 06:30:01 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 06:30:01 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 06:30:01 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 06:30:01 PM - helper - INFO - Created Directory of path : artifacts/data_validation]
+[24-04-2026 06:30:01 PM - data_validation_components - INFO - Data Validation completed. Status: True]
+[24-04-2026 06:30:01 PM - data_validation_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[24-04-2026 06:30:01 PM - main - INFO - >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[24-04-2026 06:30:01 PM - main - INFO - >>>>>> stage Data Transformation stage started <<<<<<]
+[24-04-2026 06:30:01 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 06:30:01 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 06:30:01 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 06:30:01 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 06:30:01 PM - helper - INFO - Created Directory of path : artifacts/data_transformation]
+[24-04-2026 06:30:01 PM - data_transformation_pipeline - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[24-04-2026 06:30:01 PM - main - ERROR - 'DataTransformationComponent' object has no attribute 'validate_all_data']
+Traceback (most recent call last):
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\main.py", line 39, in <module>
+    obj.initiate_data_transformation() # .main() call karna mat bhulna jo humne pipeline mein banaya hai
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\src\DATA_SCIENCE_Project\pipeline\data_transformation_pipeline.py", line 21, in initiate_data_transformation
+    raise e
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\src\DATA_SCIENCE_Project\pipeline\data_transformation_pipeline.py", line 17, in initiate_data_transformation
+    data_transformation_component.validate_all_data()
+AttributeError: 'DataTransformationComponent' object has no attribute 'validate_all_data'
+[24-04-2026 06:30:38 PM - main - INFO - >>>>>> stage Data Ingestion stage started <<<<<<]
+[24-04-2026 06:30:38 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 06:30:38 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 06:30:38 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 06:30:38 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 06:30:38 PM - helper - INFO - Created Directory of path : artifacts/data_ingestion]
+[24-04-2026 06:30:38 PM - data_ingestion_components - INFO - File already exists with size: 264426 bytes]
+[24-04-2026 06:30:38 PM - data_ingestion_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[24-04-2026 06:30:38 PM - main - INFO - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[24-04-2026 06:30:38 PM - main - INFO - >>>>>> stage Data Validation stage started <<<<<<]
+[24-04-2026 06:30:38 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 06:30:38 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 06:30:38 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 06:30:38 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 06:30:38 PM - helper - INFO - Created Directory of path : artifacts/data_validation]
+[24-04-2026 06:30:38 PM - data_validation_components - INFO - Data Validation completed. Status: True]
+[24-04-2026 06:30:38 PM - data_validation_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[24-04-2026 06:30:38 PM - main - INFO - >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[24-04-2026 06:30:38 PM - main - INFO - >>>>>> stage Data Transformation stage started <<<<<<]
+[24-04-2026 06:30:38 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 06:30:38 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 06:30:38 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 06:30:38 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 06:30:38 PM - helper - INFO - Created Directory of path : artifacts/data_transformation]
+[24-04-2026 06:30:38 PM - data_transformation_components - INFO - Splitted Data into Training and Test Data]
+[24-04-2026 06:30:38 PM - data_transformation_components - INFO - Train Data Shape: (3673, 12)]
+[24-04-2026 06:30:38 PM - data_transformation_components - INFO - Test Data Shape: (1225, 12)]
+[24-04-2026 06:30:38 PM - data_transformation_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[24-04-2026 06:30:38 PM - main - INFO - >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[24-04-2026 06:44:49 PM - main - INFO - >>>>>> stage Data Ingestion stage started <<<<<<]
+[24-04-2026 06:44:49 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 06:44:49 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 06:44:49 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 06:44:49 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 06:44:49 PM - helper - INFO - Created Directory of path : artifacts/data_ingestion]
+[24-04-2026 06:44:49 PM - data_ingestion_components - INFO - File already exists with size: 264426 bytes]
+[24-04-2026 06:44:49 PM - data_ingestion_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[24-04-2026 06:44:49 PM - main - INFO - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[24-04-2026 06:44:49 PM - main - INFO - >>>>>> stage Data Validation stage started <<<<<<]
+[24-04-2026 06:44:49 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 06:44:49 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 06:44:49 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 06:44:49 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 06:44:49 PM - helper - INFO - Created Directory of path : artifacts/data_validation]
+[24-04-2026 06:44:49 PM - data_validation_components - INFO - Data Validation completed. Status: True]
+[24-04-2026 06:44:49 PM - data_validation_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[24-04-2026 06:44:49 PM - main - INFO - >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[24-04-2026 06:44:49 PM - main - INFO - >>>>>> stage Data Transformation stage started <<<<<<]
+[24-04-2026 06:44:49 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 06:44:49 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 06:44:49 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 06:44:49 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 06:44:49 PM - helper - INFO - Created Directory of path : artifacts/data_transformation]
+[24-04-2026 06:44:49 PM - data_transformation_components - INFO - Splitted Data into Training and Test Data]
+[24-04-2026 06:44:49 PM - data_transformation_components - INFO - Train Data Shape: (3673, 12)]
+[24-04-2026 06:44:49 PM - data_transformation_components - INFO - Test Data Shape: (1225, 12)]
+[24-04-2026 06:44:49 PM - data_transformation_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[24-04-2026 06:44:49 PM - main - INFO - >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
