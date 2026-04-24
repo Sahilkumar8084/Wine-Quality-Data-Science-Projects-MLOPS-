@@ -1,7 +1,7 @@
 from src.DATA_SCIENCE_Project.constants import *
 from src.DATA_SCIENCE_Project.utils.helper import read_yaml,create_directories
 
-from src.DATA_SCIENCE_Project.entity.config_entity import (DataIngestionConfig) #Jaab bhut sara import karna hoga too line bhut bada na ban jaye too fir hum iasa karke () isme daal sakete hia jink o hume import karna hi 
+from src.DATA_SCIENCE_Project.entity.config_entity import (DataIngestionConfig,DataValidationConfig) #Jaab bhut sara import karna hoga too line bhut bada na ban jaye too fir hum iasa karke () isme daal sakete hia jink o hume import karna hi 
 
 
 class ConfigurationManager:
@@ -30,5 +30,21 @@ class ConfigurationManager:
         )
         
         return data_Ingestion_config
+        
+            
+    def get_data_validation_config(self) -> DataValidationConfig:
+        config = self.config.data_validation
+        schema = self.schema.COLUMNS
+        create_directories([config.root_dir])
+        
+        data_validation_config=DataValidationConfig(
+            root_dir=config.root_dir,
+            data_path=config.data_path,
+            STATUS_FILE=config.STATUS_FILE,
+            all_schema=schema
+            
+        )
+        
+        return data_validation_config
         
         

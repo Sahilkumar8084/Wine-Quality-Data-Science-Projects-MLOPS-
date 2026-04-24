@@ -1,6 +1,21 @@
+# Environments
 venv/
+env/
+.env
+
+# Project Specific
 logs/
 artifacts/
 *.pyc
 __pycache__/
 codesummary.json
+
+# IDEs
+.vscode/
+.idea/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# OS specific
+.DS_Store
