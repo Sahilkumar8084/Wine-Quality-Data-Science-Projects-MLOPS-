@@ -1,13 +1,13 @@
 from src.DATA_SCIENCE_Project.constants import *
 from src.DATA_SCIENCE_Project.utils.helper import read_yaml,create_directories
 
-from src.DATA_SCIENCE_Project.entity.config_entity import (DataIngestionConfig,DataValidationConfig,DataTransformationConfig) #Jaab bhut sara import karna hoga too line bhut bada na ban jaye too fir hum iasa karke () isme daal sakete hia jink o hume import karna hi 
+from src.DATA_SCIENCE_Project.entity.config_entity import (DataIngestionConfig,DataValidationConfig,DataTransformationConfig,ModelTrainerConfig) #Jaab bhut sara import karna hoga too line bhut bada na ban jaye too fir hum iasa karke () isme daal sakete hia jink o hume import karna hi 
 
 
 class ConfigurationManager:
     def __init__(self,
                  config_filepath=CONFIG_FILE_PATH,
-                 params_filepath=CONFIG_FILE_PATH,
+                 params_filepath=PARAMS_FILE_PATH,
                  schema_filepath = SCHEMA_FILE_PATH
                  ):
         self.config = read_yaml(config_filepath)
@@ -55,6 +55,22 @@ class ConfigurationManager:
             data_path=config.data_path
         )
         return data_transformation_config
+
+    def get_model_trainer_config(self)-> ModelTrainerConfig:
+        config =  self.config.model_trainer
+        params = self.params.ElasticNet
+        schema = self.schema.TARGET_COLUMN
+        create_directories([config.root_dir])
+        model_train_config  = ModelTrainerConfig(
+            root_dir=config.root_dir,
+            train_path=config.train_path,
+            test_path=config.test_path,
+            model_name = config.model_name,
+            alpha = params.alpha,
+            l1_ratio = params.l1_ratio,
+            target_column = schema.name
+        )
+        return model_train_config
 
         
         

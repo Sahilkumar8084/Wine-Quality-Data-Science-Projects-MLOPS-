@@ -498,3 +498,410 @@ x==========x]
 [24-04-2026 06:44:49 PM - main - INFO - >>>>>> stage Data Transformation stage completed <<<<<<
 
 x==========x]
+[24-04-2026 07:39:08 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 07:39:08 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 07:39:08 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 07:39:08 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 07:39:08 PM - 581613186 - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[24-04-2026 07:39:26 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 07:39:26 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 07:39:26 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 07:39:26 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 07:39:26 PM - 581613186 - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[24-04-2026 07:42:19 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 07:42:19 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 07:42:19 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 07:42:19 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 07:42:19 PM - 581613186 - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[24-04-2026 07:43:24 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 07:43:24 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 07:43:24 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 07:43:24 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 07:43:24 PM - 581613186 - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[24-04-2026 07:44:14 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 07:44:14 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 07:44:14 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 07:44:14 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 07:44:14 PM - 1688591252 - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[24-04-2026 07:44:14 PM - 1688591252 - ERROR - 'ConfigurationManager' object has no attribute 'param']
+[24-04-2026 07:45:37 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 07:45:37 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 07:45:37 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 07:45:37 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 07:45:37 PM - 1688591252 - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[24-04-2026 07:45:37 PM - 1688591252 - ERROR - "'ConfigBox' object has no attribute 'elasticnet'"]
+[24-04-2026 07:46:04 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 07:46:04 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 07:46:04 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 07:46:04 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 07:46:04 PM - 1810912711 - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[24-04-2026 07:46:04 PM - 1810912711 - ERROR - "'ConfigBox' object has no attribute 'elasticnet'"]
+[24-04-2026 07:55:16 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 07:55:16 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[24-04-2026 07:55:16 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 07:55:16 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 07:55:16 PM - helper - INFO - Created Directory of path : artifacts/model_trainer]
+[24-04-2026 07:55:16 PM - 1810912711 - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[24-04-2026 07:55:16 PM - 1810912711 - ERROR - ModelTrainerConfig.__init__() got an unexpected keyword argument 'train_path']
+[24-04-2026 08:02:35 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:02:35 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[24-04-2026 08:02:35 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 08:02:35 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 08:02:35 PM - helper - INFO - Created Directory of path : artifacts/model_trainer]
+[24-04-2026 08:02:35 PM - 1810912711 - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[24-04-2026 08:02:35 PM - 1810912711 - ERROR - 'ModelTrainerComponent' object has no attribute 'schema']
+[24-04-2026 08:03:33 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:03:33 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[24-04-2026 08:03:33 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 08:03:33 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 08:03:33 PM - helper - INFO - Created Directory of path : artifacts/model_trainer]
+[24-04-2026 08:03:33 PM - 1810912711 - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[24-04-2026 08:15:45 PM - main - INFO - >>>>>> stage Data Ingestion stage started <<<<<<]
+[24-04-2026 08:15:45 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:15:45 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:15:46 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 08:15:46 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 08:15:46 PM - helper - INFO - Created Directory of path : artifacts/data_ingestion]
+[24-04-2026 08:15:46 PM - data_ingestion_components - INFO - File already exists with size: 264426 bytes]
+[24-04-2026 08:15:46 PM - data_ingestion_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[24-04-2026 08:15:46 PM - main - INFO - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[24-04-2026 08:15:46 PM - main - INFO - >>>>>> stage Data Validation stage started <<<<<<]
+[24-04-2026 08:15:46 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:15:46 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:15:46 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 08:15:46 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 08:15:46 PM - helper - INFO - Created Directory of path : artifacts/data_validation]
+[24-04-2026 08:15:46 PM - data_validation_components - INFO - Data Validation completed. Status: True]
+[24-04-2026 08:15:46 PM - data_validation_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[24-04-2026 08:15:46 PM - main - INFO - >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[24-04-2026 08:15:46 PM - main - INFO - >>>>>> stage Data Transformation stage started <<<<<<]
+[24-04-2026 08:15:46 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:15:46 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:15:46 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 08:15:46 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 08:15:46 PM - helper - INFO - Created Directory of path : artifacts/data_transformation]
+[24-04-2026 08:15:46 PM - data_transformation_components - INFO - Splitted Data into Training and Test Data]
+[24-04-2026 08:15:46 PM - data_transformation_components - INFO - Train Data Shape: (3673, 12)]
+[24-04-2026 08:15:46 PM - data_transformation_components - INFO - Test Data Shape: (1225, 12)]
+[24-04-2026 08:15:46 PM - data_transformation_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[24-04-2026 08:15:46 PM - main - INFO - >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[24-04-2026 08:15:46 PM - main - INFO - >>>>>> stage Model Trainer stage started <<<<<<]
+[24-04-2026 08:15:46 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:15:46 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:15:46 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 08:15:46 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 08:15:46 PM - helper - INFO - Created Directory of path : artifacts/data_transformation]
+[24-04-2026 08:15:46 PM - model_trainer_pipeline - ERROR - ❌There is some issue While Reading the File]
+[24-04-2026 08:15:46 PM - main - ERROR - 'ModelTrainerComponent' object has no attribute 'split_data']
+Traceback (most recent call last):
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\main.py", line 55, in <module>
+    obj.initiate_model_trainer() # .main() call karna mat bhulna jo humne pipeline mein banaya hai
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\src\DATA_SCIENCE_Project\pipeline\model_trainer_pipeline.py", line 31, in initiate_model_trainer
+    raise e
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\src\DATA_SCIENCE_Project\pipeline\model_trainer_pipeline.py", line 24, in initiate_model_trainer
+    data_transformation_component.split_data()
+AttributeError: 'ModelTrainerComponent' object has no attribute 'split_data'
+[24-04-2026 08:19:30 PM - main - INFO - >>>>>> stage Data Ingestion stage started <<<<<<]
+[24-04-2026 08:19:30 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:19:30 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:19:30 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 08:19:30 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 08:19:30 PM - helper - INFO - Created Directory of path : artifacts/data_ingestion]
+[24-04-2026 08:19:30 PM - data_ingestion_components - INFO - File already exists with size: 264426 bytes]
+[24-04-2026 08:19:30 PM - data_ingestion_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[24-04-2026 08:19:30 PM - main - INFO - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[24-04-2026 08:19:30 PM - main - INFO - >>>>>> stage Data Validation stage started <<<<<<]
+[24-04-2026 08:19:30 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:19:30 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:19:30 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 08:19:30 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 08:19:30 PM - helper - INFO - Created Directory of path : artifacts/data_validation]
+[24-04-2026 08:19:30 PM - data_validation_components - INFO - Data Validation completed. Status: True]
+[24-04-2026 08:19:30 PM - data_validation_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[24-04-2026 08:19:30 PM - main - INFO - >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[24-04-2026 08:19:30 PM - main - INFO - >>>>>> stage Data Transformation stage started <<<<<<]
+[24-04-2026 08:19:30 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:19:30 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:19:30 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 08:19:30 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 08:19:30 PM - helper - INFO - Created Directory of path : artifacts/data_transformation]
+[24-04-2026 08:19:30 PM - data_transformation_components - INFO - Splitted Data into Training and Test Data]
+[24-04-2026 08:19:30 PM - data_transformation_components - INFO - Train Data Shape: (3673, 12)]
+[24-04-2026 08:19:30 PM - data_transformation_components - INFO - Test Data Shape: (1225, 12)]
+[24-04-2026 08:19:30 PM - data_transformation_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[24-04-2026 08:19:30 PM - main - INFO - >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[24-04-2026 08:19:30 PM - main - INFO - >>>>>> stage Model Trainer stage started <<<<<<]
+[24-04-2026 08:19:30 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:19:30 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:19:30 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 08:19:30 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 08:19:30 PM - helper - INFO - Created Directory of path : artifacts/data_transformation]
+[24-04-2026 08:19:30 PM - model_trainer_pipeline - ERROR - ❌There is some issue While Reading the File]
+[24-04-2026 08:19:30 PM - main - ERROR - 'DataTransformationConfig' object has no attribute 'train_path']
+Traceback (most recent call last):
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\main.py", line 55, in <module>
+    obj.initiate_model_trainer() # .main() call karna mat bhulna jo humne pipeline mein banaya hai
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\src\DATA_SCIENCE_Project\pipeline\model_trainer_pipeline.py", line 31, in initiate_model_trainer
+    raise e
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\src\DATA_SCIENCE_Project\pipeline\model_trainer_pipeline.py", line 24, in initiate_model_trainer
+    data_transformation_component.train()
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\src\DATA_SCIENCE_Project\components\model_trainer_component.py", line 17, in train
+    train_data = pd.read_csv(self.config.train_path)
+AttributeError: 'DataTransformationConfig' object has no attribute 'train_path'
+[24-04-2026 08:22:32 PM - main - INFO - >>>>>> stage Data Ingestion stage started <<<<<<]
+[24-04-2026 08:22:32 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:22:32 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:22:32 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 08:22:32 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 08:22:32 PM - helper - INFO - Created Directory of path : artifacts/data_ingestion]
+[24-04-2026 08:22:32 PM - data_ingestion_components - INFO - File already exists with size: 264426 bytes]
+[24-04-2026 08:22:32 PM - data_ingestion_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[24-04-2026 08:22:32 PM - main - INFO - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[24-04-2026 08:22:32 PM - main - INFO - >>>>>> stage Data Validation stage started <<<<<<]
+[24-04-2026 08:22:32 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:22:32 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:22:32 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 08:22:32 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 08:22:32 PM - helper - INFO - Created Directory of path : artifacts/data_validation]
+[24-04-2026 08:22:32 PM - data_validation_components - INFO - Data Validation completed. Status: True]
+[24-04-2026 08:22:32 PM - data_validation_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[24-04-2026 08:22:32 PM - main - INFO - >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[24-04-2026 08:22:32 PM - main - INFO - >>>>>> stage Data Transformation stage started <<<<<<]
+[24-04-2026 08:22:32 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:22:32 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:22:32 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 08:22:32 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 08:22:32 PM - helper - INFO - Created Directory of path : artifacts/data_transformation]
+[24-04-2026 08:22:32 PM - data_transformation_components - INFO - Splitted Data into Training and Test Data]
+[24-04-2026 08:22:32 PM - data_transformation_components - INFO - Train Data Shape: (3673, 12)]
+[24-04-2026 08:22:32 PM - data_transformation_components - INFO - Test Data Shape: (1225, 12)]
+[24-04-2026 08:22:32 PM - data_transformation_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[24-04-2026 08:22:32 PM - main - INFO - >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[24-04-2026 08:22:32 PM - main - INFO - >>>>>> stage Model Trainer stage started <<<<<<]
+[24-04-2026 08:22:32 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:22:32 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:22:32 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 08:22:32 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 08:22:32 PM - model_trainer_pipeline - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[24-04-2026 08:22:32 PM - model_trainer_pipeline - ERROR - "'ConfigBox' object has no attribute 'elasticnet'"]
+[24-04-2026 08:22:32 PM - main - ERROR - "'ConfigBox' object has no attribute 'elasticnet'"]
+Traceback (most recent call last):
+  File "box/box.py", line 605, in box.box.Box.__getitem__
+KeyError: 'ElasticNet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 644, in box.box.Box.__getattr__
+  File "box/box.py", line 632, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'ElasticNet'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 646, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'ElasticNet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 660, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'ElasticNet'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 605, in box.box.Box.__getitem__
+KeyError: 'elasticnet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 644, in box.box.Box.__getattr__
+  File "box/box.py", line 632, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'elasticnet'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 646, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'elasticnet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\main.py", line 55, in <module>
+    obj.initiate_model_trainer() # .main() call karna mat bhulna jo humne pipeline mein banaya hai
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\src\DATA_SCIENCE_Project\pipeline\model_trainer_pipeline.py", line 23, in initiate_model_trainer
+    raise e
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\src\DATA_SCIENCE_Project\pipeline\model_trainer_pipeline.py", line 16, in initiate_model_trainer
+    model_trainer_manager = cfm.get_model_trainer_config()
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\src\DATA_SCIENCE_Project\config\configuration.py", line 61, in get_model_trainer_config
+    params = self.params.ElasticNet
+  File "box/config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 660, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'elasticnet'"
+[24-04-2026 08:24:27 PM - main - INFO - >>>>>> stage Data Ingestion stage started <<<<<<]
+[24-04-2026 08:24:27 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:24:27 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:24:27 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 08:24:27 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 08:24:27 PM - helper - INFO - Created Directory of path : artifacts/data_ingestion]
+[24-04-2026 08:24:27 PM - data_ingestion_components - INFO - File already exists with size: 264426 bytes]
+[24-04-2026 08:24:27 PM - data_ingestion_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[24-04-2026 08:24:27 PM - main - INFO - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[24-04-2026 08:24:27 PM - main - INFO - >>>>>> stage Data Validation stage started <<<<<<]
+[24-04-2026 08:24:27 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:24:27 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:24:27 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 08:24:27 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 08:24:27 PM - helper - INFO - Created Directory of path : artifacts/data_validation]
+[24-04-2026 08:24:27 PM - data_validation_components - INFO - Data Validation completed. Status: True]
+[24-04-2026 08:24:27 PM - data_validation_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[24-04-2026 08:24:27 PM - main - INFO - >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[24-04-2026 08:24:27 PM - main - INFO - >>>>>> stage Data Transformation stage started <<<<<<]
+[24-04-2026 08:24:27 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:24:27 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:24:27 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 08:24:27 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 08:24:27 PM - helper - INFO - Created Directory of path : artifacts/data_transformation]
+[24-04-2026 08:24:27 PM - data_transformation_components - INFO - Splitted Data into Training and Test Data]
+[24-04-2026 08:24:27 PM - data_transformation_components - INFO - Train Data Shape: (3673, 12)]
+[24-04-2026 08:24:27 PM - data_transformation_components - INFO - Test Data Shape: (1225, 12)]
+[24-04-2026 08:24:27 PM - data_transformation_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[24-04-2026 08:24:27 PM - main - INFO - >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[24-04-2026 08:24:27 PM - main - INFO - >>>>>> stage Model Trainer stage started <<<<<<]
+[24-04-2026 08:24:27 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:24:27 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:24:27 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 08:24:27 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 08:24:27 PM - model_trainer_pipeline - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[24-04-2026 08:24:27 PM - model_trainer_pipeline - ERROR - "'ConfigBox' object has no attribute 'elasticnet'"]
+[24-04-2026 08:24:27 PM - main - ERROR - "'ConfigBox' object has no attribute 'elasticnet'"]
+Traceback (most recent call last):
+  File "box/box.py", line 605, in box.box.Box.__getitem__
+KeyError: 'ElasticNet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 644, in box.box.Box.__getattr__
+  File "box/box.py", line 632, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'ElasticNet'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 646, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'ElasticNet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 660, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'ElasticNet'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 605, in box.box.Box.__getitem__
+KeyError: 'elasticnet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 644, in box.box.Box.__getattr__
+  File "box/box.py", line 632, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'elasticnet'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 646, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'elasticnet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\main.py", line 55, in <module>
+    obj.initiate_model_trainer() # .main() call karna mat bhulna jo humne pipeline mein banaya hai
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\src\DATA_SCIENCE_Project\pipeline\model_trainer_pipeline.py", line 23, in initiate_model_trainer
+    raise e
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\src\DATA_SCIENCE_Project\pipeline\model_trainer_pipeline.py", line 16, in initiate_model_trainer
+    model_trainer_manager = cfm.get_model_trainer_config()
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\src\DATA_SCIENCE_Project\config\configuration.py", line 61, in get_model_trainer_config
+    params = self.params.ElasticNet
+  File "box/config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 660, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'elasticnet'"
+[24-04-2026 08:35:41 PM - main - INFO - >>>>>> stage Data Ingestion stage started <<<<<<]
+[24-04-2026 08:35:41 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:35:41 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[24-04-2026 08:35:41 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 08:35:41 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 08:35:41 PM - helper - INFO - Created Directory of path : artifacts/data_ingestion]
+[24-04-2026 08:35:41 PM - data_ingestion_components - INFO - File already exists with size: 264426 bytes]
+[24-04-2026 08:35:41 PM - data_ingestion_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[24-04-2026 08:35:41 PM - main - INFO - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[24-04-2026 08:35:41 PM - main - INFO - >>>>>> stage Data Validation stage started <<<<<<]
+[24-04-2026 08:35:41 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:35:41 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[24-04-2026 08:35:41 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 08:35:41 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 08:35:41 PM - helper - INFO - Created Directory of path : artifacts/data_validation]
+[24-04-2026 08:35:41 PM - data_validation_components - INFO - Data Validation completed. Status: True]
+[24-04-2026 08:35:41 PM - data_validation_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[24-04-2026 08:35:41 PM - main - INFO - >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[24-04-2026 08:35:41 PM - main - INFO - >>>>>> stage Data Transformation stage started <<<<<<]
+[24-04-2026 08:35:41 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:35:41 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[24-04-2026 08:35:41 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 08:35:41 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 08:35:41 PM - helper - INFO - Created Directory of path : artifacts/data_transformation]
+[24-04-2026 08:35:41 PM - data_transformation_components - INFO - Splitted Data into Training and Test Data]
+[24-04-2026 08:35:41 PM - data_transformation_components - INFO - Train Data Shape: (3673, 12)]
+[24-04-2026 08:35:41 PM - data_transformation_components - INFO - Test Data Shape: (1225, 12)]
+[24-04-2026 08:35:41 PM - data_transformation_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[24-04-2026 08:35:41 PM - main - INFO - >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[24-04-2026 08:35:41 PM - main - INFO - >>>>>> stage Model Trainer stage started <<<<<<]
+[24-04-2026 08:35:41 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[24-04-2026 08:35:41 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[24-04-2026 08:35:41 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[24-04-2026 08:35:41 PM - helper - INFO - Created Directory of path : artifacts]
+[24-04-2026 08:35:41 PM - helper - INFO - Created Directory of path : artifacts/model_trainer]
+[24-04-2026 08:35:41 PM - model_trainer_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[24-04-2026 08:35:41 PM - main - INFO - >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
