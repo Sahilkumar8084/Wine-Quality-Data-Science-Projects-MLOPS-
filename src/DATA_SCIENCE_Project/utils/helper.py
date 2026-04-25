@@ -33,7 +33,7 @@ def create_directories(path_to_directories: list,verbose=True):
             logger.info(f"Created Directory of path : {path}")
 
 @ensure_annotations
-def save_json(path:Path,data:dict)->ConfigBox:
+def save_json(path:Path,data:dict):
     try:
         
         with open(path,'w') as f:

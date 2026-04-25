@@ -2,6 +2,7 @@ import os
 from src.DATA_SCIENCE_Project import logger
 from src.DATA_SCIENCE_Project.config.configuration import DataValidationConfig
 import pandas as pd
+from pathlib import Path
 
 class DataValidationComponent:
     def __init__(self,config:DataValidationConfig):

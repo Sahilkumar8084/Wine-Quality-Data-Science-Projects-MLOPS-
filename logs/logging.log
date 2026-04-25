@@ -905,3 +905,614 @@ x==========x]
 [24-04-2026 08:35:41 PM - main - INFO - >>>>>> stage Model Trainer stage completed <<<<<<
 
 x==========x]
+[25-04-2026 07:13:03 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 07:13:03 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 07:13:03 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 07:13:03 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 07:13:03 PM - 3078030773 - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[25-04-2026 07:13:03 PM - 3078030773 - ERROR - 'ConfigurationManager' object has no attribute 'get_model_evaluate_config']
+[25-04-2026 07:13:33 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 07:13:33 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 07:13:33 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 07:13:33 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 07:13:33 PM - helper - INFO - Created Directory of path : artifacts/model_evaluation]
+[25-04-2026 07:13:33 PM - 666470743 - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[25-04-2026 07:13:33 PM - 666470743 - ERROR - "'ConfigBox' object has no attribute 'metric_file_path'"]
+[25-04-2026 07:13:55 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 07:13:55 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 07:13:55 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 07:13:55 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 07:13:55 PM - helper - INFO - Created Directory of path : artifacts/model_evaluation]
+[25-04-2026 07:13:55 PM - 666470743 - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[25-04-2026 07:13:55 PM - 666470743 - ERROR - ModelEvaluationComponent.eval_metrics() missing 2 required positional arguments: 'actual' and 'pred']
+[25-04-2026 07:14:17 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 07:14:17 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 07:14:17 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 07:14:17 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 07:14:17 PM - helper - INFO - Created Directory of path : artifacts/model_evaluation]
+[25-04-2026 07:14:17 PM - 3689569046 - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[25-04-2026 07:14:17 PM - 3689569046 - ERROR - [Errno 2] No such file or directory: 'quality']
+[25-04-2026 07:14:51 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 07:14:51 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 07:14:51 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 07:14:51 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 07:14:51 PM - helper - INFO - Created Directory of path : artifacts/model_evaluation]
+[25-04-2026 07:14:51 PM - 3689569046 - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[25-04-2026 07:14:51 PM - 3689569046 - ERROR - "['quality'] not found in axis"]
+[25-04-2026 07:15:47 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 07:15:47 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 07:15:47 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 07:15:47 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 07:15:47 PM - helper - INFO - Created Directory of path : artifacts/model_evaluation]
+[25-04-2026 07:15:47 PM - 3689569046 - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[25-04-2026 07:15:47 PM - 3689569046 - ERROR - "['quality'] not found in axis"]
+[25-04-2026 07:16:07 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 07:16:07 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 07:16:07 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 07:16:07 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 07:16:07 PM - helper - INFO - Created Directory of path : artifacts/model_evaluation]
+[25-04-2026 07:16:07 PM - 3689569046 - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[25-04-2026 07:16:07 PM - 3689569046 - ERROR - "['quality'] not found in axis"]
+[25-04-2026 07:19:10 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 07:19:10 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 07:19:10 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 07:19:10 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 07:19:10 PM - helper - INFO - Created Directory of path : artifacts/model_evaluation]
+[25-04-2026 07:19:10 PM - 3689569046 - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[25-04-2026 07:19:10 PM - 3689569046 - ERROR - "['quality'] not found in axis"]
+[25-04-2026 07:25:05 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 07:25:05 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 07:25:05 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 07:25:05 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 07:25:05 PM - helper - INFO - Created Directory of path : artifacts/model_evaluation]
+[25-04-2026 07:25:05 PM - 3689569046 - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[25-04-2026 07:25:05 PM - 3689569046 - ERROR - "['quality'] not found in axis"]
+[25-04-2026 07:27:04 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 07:27:04 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 07:27:04 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 07:27:04 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 07:27:04 PM - helper - INFO - Created Directory of path : artifacts/model_evaluation]
+[25-04-2026 07:27:04 PM - 3689569046 - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[25-04-2026 07:27:04 PM - 3689569046 - ERROR - load() got an unexpected keyword argument 'axis']
+[25-04-2026 07:27:46 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 07:27:46 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 07:27:46 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 07:27:46 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 07:27:46 PM - helper - INFO - Created Directory of path : artifacts/model_evaluation]
+[25-04-2026 07:27:46 PM - 3689569046 - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[25-04-2026 07:27:46 PM - 3689569046 - ERROR - expected str, bytes or os.PathLike object, not list]
+[25-04-2026 07:28:21 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 07:28:21 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 07:28:21 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 07:28:21 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 07:28:21 PM - helper - INFO - Created Directory of path : artifacts/model_evaluation]
+[25-04-2026 07:28:21 PM - 3689569046 - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[25-04-2026 07:28:21 PM - 3689569046 - ERROR - 'function' object has no attribute 'decode']
+[25-04-2026 07:32:05 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 07:32:05 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 07:32:05 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 07:32:05 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 07:32:05 PM - helper - INFO - Created Directory of path : artifacts/model_evaluation]
+[25-04-2026 07:32:07 PM - helper - INFO - Json File Saved to the path: artifacts\model_evaluation\metrics.json]
+[25-04-2026 07:32:08 PM - 3689569046 - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[25-04-2026 07:32:08 PM - 3689569046 - ERROR - Return value of <function save_json at 0x00000168DA59EEF0> of type <class 'NoneType'> does not match annotation type <class 'box.config_box.ConfigBox'>]
+[25-04-2026 07:35:14 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 07:35:14 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 07:35:14 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 07:35:14 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 07:35:14 PM - helper - INFO - Created Directory of path : artifacts/model_evaluation]
+[25-04-2026 07:35:15 PM - helper - INFO - Json File Saved to the path: artifacts\model_evaluation\metrics.json]
+[25-04-2026 07:35:16 PM - 3689569046 - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[25-04-2026 07:35:16 PM - 3689569046 - ERROR - Return value of <function save_json at 0x00000168DA59EEF0> of type <class 'NoneType'> does not match annotation type <class 'box.config_box.ConfigBox'>]
+[25-04-2026 07:36:56 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 07:36:56 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 07:36:56 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 07:36:56 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 07:36:56 PM - helper - INFO - Created Directory of path : artifacts/model_evaluation]
+[25-04-2026 07:36:57 PM - helper - INFO - Json File Saved to the path: artifacts\model_evaluation\metrics.json]
+[25-04-2026 07:36:58 PM - 3689569046 - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[25-04-2026 07:36:58 PM - 3689569046 - ERROR - Return value of <function save_json at 0x00000168DA59EEF0> of type <class 'NoneType'> does not match annotation type <class 'box.config_box.ConfigBox'>]
+[25-04-2026 07:41:15 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 07:41:15 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 07:41:15 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 07:41:15 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 07:41:15 PM - helper - INFO - Created Directory of path : artifacts/model_evaluation]
+[25-04-2026 07:41:16 PM - helper - INFO - Json File Saved to the path: artifacts\model_evaluation\metrics.json]
+[25-04-2026 07:41:17 PM - 3689569046 - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[25-04-2026 07:41:17 PM - 3689569046 - ERROR - Return value of <function save_json at 0x00000168DA59EEF0> of type <class 'NoneType'> does not match annotation type <class 'box.config_box.ConfigBox'>]
+[25-04-2026 07:43:34 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 07:43:34 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 07:43:34 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 07:43:34 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 07:43:34 PM - helper - INFO - Created Directory of path : artifacts/model_evaluation]
+[25-04-2026 07:43:35 PM - helper - INFO - Json File Saved to the path: artifacts\model_evaluation\metrics.json]
+[25-04-2026 07:43:36 PM - 3689569046 - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[25-04-2026 07:43:36 PM - 3689569046 - ERROR - Return value of <function save_json at 0x00000168DA59EEF0> of type <class 'NoneType'> does not match annotation type <class 'box.config_box.ConfigBox'>]
+[25-04-2026 07:45:46 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 07:45:46 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 07:45:46 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 07:45:46 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 07:45:46 PM - helper - INFO - Created Directory of path : artifacts/model_evaluation]
+[25-04-2026 07:45:48 PM - helper - INFO - Json File Saved to the path: artifacts\model_evaluation\metrics.json]
+[25-04-2026 07:45:48 PM - 3689569046 - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[25-04-2026 07:45:48 PM - 3689569046 - ERROR - log_param() missing 1 required positional argument: 'value']
+[25-04-2026 07:46:39 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 07:46:39 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 07:46:39 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 07:46:39 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 07:46:39 PM - helper - INFO - Created Directory of path : artifacts/model_evaluation]
+[25-04-2026 07:46:39 PM - helper - INFO - Json File Saved to the path: artifacts\model_evaluation\metrics.json]
+[25-04-2026 07:47:01 PM - 3689569046 - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[25-04-2026 08:08:18 PM - main - INFO - >>>>>> stage Data Ingestion stage started <<<<<<]
+[25-04-2026 08:08:18 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 08:08:18 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 08:08:18 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 08:08:18 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 08:08:18 PM - helper - INFO - Created Directory of path : artifacts/data_ingestion]
+[25-04-2026 08:08:18 PM - data_ingestion_components - INFO - File already exists with size: 264426 bytes]
+[25-04-2026 08:08:18 PM - data_ingestion_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[25-04-2026 08:08:18 PM - main - INFO - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[25-04-2026 08:08:18 PM - main - INFO - >>>>>> stage Data Validation stage started <<<<<<]
+[25-04-2026 08:08:18 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 08:08:18 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 08:08:18 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 08:08:18 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 08:08:18 PM - helper - INFO - Created Directory of path : artifacts/data_validation]
+[25-04-2026 08:08:18 PM - data_validation_components - INFO - Data Validation completed. Status: True]
+[25-04-2026 08:08:18 PM - data_validation_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[25-04-2026 08:08:18 PM - main - INFO - >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[25-04-2026 08:08:18 PM - main - INFO - >>>>>> stage Data Transformation stage started <<<<<<]
+[25-04-2026 08:08:18 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 08:08:18 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 08:08:18 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 08:08:18 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 08:08:18 PM - helper - INFO - Created Directory of path : artifacts/data_transformation]
+[25-04-2026 08:08:18 PM - data_transformation_components - INFO - Splitted Data into Training and Test Data]
+[25-04-2026 08:08:18 PM - data_transformation_components - INFO - Train Data Shape: (3673, 12)]
+[25-04-2026 08:08:18 PM - data_transformation_components - INFO - Test Data Shape: (1225, 12)]
+[25-04-2026 08:08:18 PM - data_transformation_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[25-04-2026 08:08:18 PM - main - INFO - >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[25-04-2026 08:08:18 PM - main - INFO - >>>>>> stage Model Trainer stage started <<<<<<]
+[25-04-2026 08:08:18 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 08:08:18 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 08:08:18 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 08:08:19 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 08:08:19 PM - helper - INFO - Created Directory of path : artifacts/model_trainer]
+[25-04-2026 08:08:19 PM - model_trainer_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[25-04-2026 08:08:19 PM - main - INFO - >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[25-04-2026 08:08:19 PM - main - INFO - >>>>>> stage MODEL EVALUATION started <<<<<<]
+[25-04-2026 08:08:19 PM - main - ERROR - ModelEvaluationComponent.__init__() missing 1 required positional argument: 'config']
+Traceback (most recent call last):
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\main.py", line 68, in <module>
+    obj = ModelEvaluationComponent()
+TypeError: ModelEvaluationComponent.__init__() missing 1 required positional argument: 'config'
+[25-04-2026 08:24:09 PM - main - INFO - >>>>>> stage Data Ingestion stage started <<<<<<]
+[25-04-2026 08:24:09 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 08:24:09 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 08:24:09 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 08:24:09 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 08:24:09 PM - helper - INFO - Created Directory of path : artifacts/data_ingestion]
+[25-04-2026 08:24:09 PM - data_ingestion_components - INFO - File already exists with size: 264426 bytes]
+[25-04-2026 08:24:09 PM - data_ingestion_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[25-04-2026 08:24:09 PM - main - INFO - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[25-04-2026 08:24:09 PM - main - INFO - >>>>>> stage Data Validation stage started <<<<<<]
+[25-04-2026 08:24:09 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 08:24:09 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 08:24:09 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 08:24:09 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 08:24:09 PM - helper - INFO - Created Directory of path : artifacts/data_validation]
+[25-04-2026 08:24:09 PM - data_validation_components - INFO - Data Validation completed. Status: True]
+[25-04-2026 08:24:09 PM - data_validation_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[25-04-2026 08:24:09 PM - main - INFO - >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[25-04-2026 08:24:09 PM - main - INFO - >>>>>> stage Data Transformation stage started <<<<<<]
+[25-04-2026 08:24:09 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 08:24:09 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 08:24:09 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 08:24:09 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 08:24:09 PM - helper - INFO - Created Directory of path : artifacts/data_transformation]
+[25-04-2026 08:24:09 PM - data_transformation_components - INFO - Splitted Data into Training and Test Data]
+[25-04-2026 08:24:09 PM - data_transformation_components - INFO - Train Data Shape: (3673, 12)]
+[25-04-2026 08:24:09 PM - data_transformation_components - INFO - Test Data Shape: (1225, 12)]
+[25-04-2026 08:24:09 PM - data_transformation_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[25-04-2026 08:24:09 PM - main - INFO - >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[25-04-2026 08:24:09 PM - main - INFO - >>>>>> stage Model Trainer stage started <<<<<<]
+[25-04-2026 08:24:09 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 08:24:09 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 08:24:09 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 08:24:09 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 08:24:09 PM - helper - INFO - Created Directory of path : artifacts/model_trainer]
+[25-04-2026 08:24:10 PM - model_trainer_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[25-04-2026 08:24:10 PM - main - INFO - >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[25-04-2026 08:24:10 PM - main - INFO - >>>>>> stage MODEL EVALUATION started <<<<<<]
+[25-04-2026 08:24:10 PM - main - ERROR - ModelEvaluationComponent.__init__() missing 1 required positional argument: 'config']
+Traceback (most recent call last):
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\main.py", line 68, in <module>
+    obj = ModelEvaluationComponent()
+TypeError: ModelEvaluationComponent.__init__() missing 1 required positional argument: 'config'
+[25-04-2026 08:29:22 PM - main - INFO - >>>>>> stage Data Ingestion stage started <<<<<<]
+[25-04-2026 08:29:22 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 08:29:22 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 08:29:22 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 08:29:22 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 08:29:22 PM - helper - INFO - Created Directory of path : artifacts/data_ingestion]
+[25-04-2026 08:29:22 PM - data_ingestion_components - INFO - File already exists with size: 264426 bytes]
+[25-04-2026 08:29:22 PM - data_ingestion_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[25-04-2026 08:29:22 PM - main - INFO - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[25-04-2026 08:29:22 PM - main - INFO - >>>>>> stage Data Validation stage started <<<<<<]
+[25-04-2026 08:29:22 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 08:29:22 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 08:29:22 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 08:29:22 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 08:29:22 PM - helper - INFO - Created Directory of path : artifacts/data_validation]
+[25-04-2026 08:29:22 PM - data_validation_components - INFO - Data Validation completed. Status: True]
+[25-04-2026 08:29:22 PM - data_validation_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[25-04-2026 08:29:22 PM - main - INFO - >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[25-04-2026 08:29:22 PM - main - INFO - >>>>>> stage Data Transformation stage started <<<<<<]
+[25-04-2026 08:29:22 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 08:29:22 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 08:29:22 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 08:29:22 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 08:29:22 PM - helper - INFO - Created Directory of path : artifacts/data_transformation]
+[25-04-2026 08:29:22 PM - data_transformation_components - INFO - Splitted Data into Training and Test Data]
+[25-04-2026 08:29:22 PM - data_transformation_components - INFO - Train Data Shape: (3673, 12)]
+[25-04-2026 08:29:22 PM - data_transformation_components - INFO - Test Data Shape: (1225, 12)]
+[25-04-2026 08:29:22 PM - data_transformation_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[25-04-2026 08:29:22 PM - main - INFO - >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[25-04-2026 08:29:22 PM - main - INFO - >>>>>> stage Model Trainer stage started <<<<<<]
+[25-04-2026 08:29:22 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 08:29:22 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 08:29:22 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 08:29:22 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 08:29:22 PM - helper - INFO - Created Directory of path : artifacts/model_trainer]
+[25-04-2026 08:29:22 PM - model_trainer_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[25-04-2026 08:29:22 PM - main - INFO - >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[25-04-2026 08:29:22 PM - main - INFO - >>>>>> stage MODEL EVALUATION started <<<<<<]
+[25-04-2026 08:29:22 PM - main - ERROR - 'ModelEvaluationTrainingPipeline' object has no attribute 'initiate_model_evaluation']
+Traceback (most recent call last):
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\main.py", line 72, in <module>
+    obj.initiate_model_evaluation() # .main() call karna mat bhulna jo humne pipeline mein banaya hai
+AttributeError: 'ModelEvaluationTrainingPipeline' object has no attribute 'initiate_model_evaluation'. Did you mean: 'initiate_model_evaluatioin'?
+[25-04-2026 08:30:05 PM - main - INFO - >>>>>> stage Data Ingestion stage started <<<<<<]
+[25-04-2026 08:30:05 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 08:30:05 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 08:30:05 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 08:30:05 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 08:30:05 PM - helper - INFO - Created Directory of path : artifacts/data_ingestion]
+[25-04-2026 08:30:05 PM - data_ingestion_components - INFO - File already exists with size: 264426 bytes]
+[25-04-2026 08:30:05 PM - data_ingestion_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[25-04-2026 08:30:05 PM - main - INFO - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[25-04-2026 08:30:05 PM - main - INFO - >>>>>> stage Data Validation stage started <<<<<<]
+[25-04-2026 08:30:05 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 08:30:05 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 08:30:05 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 08:30:05 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 08:30:05 PM - helper - INFO - Created Directory of path : artifacts/data_validation]
+[25-04-2026 08:30:05 PM - data_validation_components - INFO - Data Validation completed. Status: True]
+[25-04-2026 08:30:05 PM - data_validation_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[25-04-2026 08:30:05 PM - main - INFO - >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[25-04-2026 08:30:05 PM - main - INFO - >>>>>> stage Data Transformation stage started <<<<<<]
+[25-04-2026 08:30:05 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 08:30:05 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 08:30:05 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 08:30:05 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 08:30:05 PM - helper - INFO - Created Directory of path : artifacts/data_transformation]
+[25-04-2026 08:30:05 PM - data_transformation_components - INFO - Splitted Data into Training and Test Data]
+[25-04-2026 08:30:05 PM - data_transformation_components - INFO - Train Data Shape: (3673, 12)]
+[25-04-2026 08:30:05 PM - data_transformation_components - INFO - Test Data Shape: (1225, 12)]
+[25-04-2026 08:30:05 PM - data_transformation_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[25-04-2026 08:30:05 PM - main - INFO - >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[25-04-2026 08:30:05 PM - main - INFO - >>>>>> stage Model Trainer stage started <<<<<<]
+[25-04-2026 08:30:05 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 08:30:05 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 08:30:05 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 08:30:05 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 08:30:05 PM - helper - INFO - Created Directory of path : artifacts/model_trainer]
+[25-04-2026 08:30:05 PM - model_trainer_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[25-04-2026 08:30:05 PM - main - INFO - >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[25-04-2026 08:30:05 PM - main - INFO - >>>>>> stage MODEL EVALUATION started <<<<<<]
+[25-04-2026 08:30:05 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 08:30:05 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 08:30:05 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 08:30:05 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 08:30:05 PM - helper - INFO - Created Directory of path : artifacts/model_evaluation]
+[25-04-2026 08:30:09 PM - helper - INFO - Json File Saved to the path: artifacts\model_evaluation\metrics.json]
+[25-04-2026 08:30:27 PM - connectionpool - WARNING - Retrying (Retry(total=6, connect=6, read=7, redirect=7, status=7)) after connection broken by 'NameResolutionError("HTTPSConnection(host='dagshub.com', port=443): Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /sahilkumarrock8084/Wine-Quality-Data-Science-Projects-MLOPS-.mlflow/api/2.0/mlflow/registered-models/create]
+[25-04-2026 08:30:43 PM - connectionpool - WARNING - Retrying (Retry(total=5, connect=5, read=7, redirect=7, status=7)) after connection broken by 'NameResolutionError("HTTPSConnection(host='dagshub.com', port=443): Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /sahilkumarrock8084/Wine-Quality-Data-Science-Projects-MLOPS-.mlflow/api/2.0/mlflow/registered-models/create]
+[25-04-2026 08:30:52 PM - connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=7, redirect=7, status=7)) after connection broken by 'NameResolutionError("HTTPSConnection(host='dagshub.com', port=443): Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /sahilkumarrock8084/Wine-Quality-Data-Science-Projects-MLOPS-.mlflow/api/2.0/mlflow/registered-models/create]
+[25-04-2026 08:31:08 PM - connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=7, redirect=7, status=7)) after connection broken by 'NameResolutionError("HTTPSConnection(host='dagshub.com', port=443): Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /sahilkumarrock8084/Wine-Quality-Data-Science-Projects-MLOPS-.mlflow/api/2.0/mlflow/registered-models/create]
+[25-04-2026 08:31:41 PM - connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=7, redirect=7, status=7)) after connection broken by 'NameResolutionError("HTTPSConnection(host='dagshub.com', port=443): Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /sahilkumarrock8084/Wine-Quality-Data-Science-Projects-MLOPS-.mlflow/api/2.0/mlflow/registered-models/create]
+[25-04-2026 08:32:45 PM - connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=7, redirect=7, status=7)) after connection broken by 'NameResolutionError("HTTPSConnection(host='dagshub.com', port=443): Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /sahilkumarrock8084/Wine-Quality-Data-Science-Projects-MLOPS-.mlflow/api/2.0/mlflow/registered-models/create]
+[25-04-2026 08:32:50 PM - model_evaluation_pipeline - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[25-04-2026 08:32:50 PM - model_evaluation_pipeline - ERROR - API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: '']
+[25-04-2026 08:32:50 PM - main - ERROR - API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\main.py", line 72, in <module>
+    obj.initiate_model_evaluation() # .main() call karna mat bhulna jo humne pipeline mein banaya hai
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\src\DATA_SCIENCE_Project\pipeline\model_evaluation_pipeline.py", line 20, in initiate_model_evaluation
+    raise e
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\src\DATA_SCIENCE_Project\pipeline\model_evaluation_pipeline.py", line 15, in initiate_model_evaluation
+    model_evaluate_component.log_into_mlflow()
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\src\DATA_SCIENCE_Project\components\model_evaluation_component.py", line 57, in log_into_mlflow
+    mlflow.sklearn.log_model(model,'model',registered_model_name="ElasticNet")
+  File "d:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\venv\lib\site-packages\mlflow\sklearn\__init__.py", line 478, in log_model
+    return Model.log(
+  File "d:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\venv\lib\site-packages\mlflow\models\model.py", line 1365, in log
+    registered_model = mlflow.tracking._model_registry.fluent._register_model(
+  File "d:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\venv\lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 179, in _register_model
+    raise e
+  File "d:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\venv\lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 168, in _register_model
+    create_model_response = client.create_registered_model(name)
+  File "d:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\venv\lib\site-packages\mlflow\tracking\client.py", line 3992, in create_registered_model
+    return self._get_registry_client().create_registered_model(
+  File "d:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\venv\lib\site-packages\mlflow\telemetry\track.py", line 30, in wrapper
+    result = func(*args, **kwargs)
+  File "d:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\venv\lib\site-packages\mlflow\tracking\_model_registry\client.py", line 96, in create_registered_model
+    return self.store.create_registered_model(name, tags, description, deployment_job_id)
+  File "d:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\venv\lib\site-packages\mlflow\store\model_registry\rest_store.py", line 120, in create_registered_model
+    response_proto = self._call_endpoint(CreateRegisteredModel, req_body)
+  File "d:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\venv\lib\site-packages\mlflow\store\model_registry\rest_store.py", line 68, in _call_endpoint
+    return super()._call_endpoint(
+  File "d:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\venv\lib\site-packages\mlflow\store\model_registry\base_rest_store.py", line 42, in _call_endpoint
+    return call_endpoint(
+  File "d:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\venv\lib\site-packages\mlflow\utils\rest_utils.py", line 650, in call_endpoint
+    response = verify_rest_response(
+  File "d:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\venv\lib\site-packages\mlflow\utils\rest_utils.py", line 368, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: ''
+[25-04-2026 08:40:30 PM - main - INFO - >>>>>> stage Data Ingestion stage started <<<<<<]
+[25-04-2026 08:40:30 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 08:40:30 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 08:40:30 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 08:40:30 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 08:40:30 PM - helper - INFO - Created Directory of path : artifacts/data_ingestion]
+[25-04-2026 08:40:30 PM - data_ingestion_components - INFO - File already exists with size: 264426 bytes]
+[25-04-2026 08:40:30 PM - data_ingestion_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[25-04-2026 08:40:30 PM - main - INFO - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[25-04-2026 08:40:30 PM - main - INFO - >>>>>> stage Data Validation stage started <<<<<<]
+[25-04-2026 08:40:30 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 08:40:30 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 08:40:30 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 08:40:30 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 08:40:30 PM - helper - INFO - Created Directory of path : artifacts/data_validation]
+[25-04-2026 08:40:30 PM - data_validation_components - INFO - Data Validation completed. Status: True]
+[25-04-2026 08:40:30 PM - data_validation_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[25-04-2026 08:40:30 PM - main - INFO - >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[25-04-2026 08:40:30 PM - main - INFO - >>>>>> stage Data Transformation stage started <<<<<<]
+[25-04-2026 08:40:30 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 08:40:30 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 08:40:30 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 08:40:30 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 08:40:30 PM - helper - INFO - Created Directory of path : artifacts/data_transformation]
+[25-04-2026 08:40:30 PM - data_transformation_components - INFO - Splitted Data into Training and Test Data]
+[25-04-2026 08:40:30 PM - data_transformation_components - INFO - Train Data Shape: (3673, 12)]
+[25-04-2026 08:40:30 PM - data_transformation_components - INFO - Test Data Shape: (1225, 12)]
+[25-04-2026 08:40:30 PM - data_transformation_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[25-04-2026 08:40:30 PM - main - INFO - >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[25-04-2026 08:40:30 PM - main - INFO - >>>>>> stage Model Trainer stage started <<<<<<]
+[25-04-2026 08:40:30 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 08:40:30 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 08:40:30 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 08:40:30 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 08:40:30 PM - helper - INFO - Created Directory of path : artifacts/model_trainer]
+[25-04-2026 08:40:30 PM - model_trainer_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[25-04-2026 08:40:30 PM - main - INFO - >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[25-04-2026 08:40:30 PM - main - INFO - >>>>>> stage MODEL EVALUATION started <<<<<<]
+[25-04-2026 08:40:30 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 08:40:30 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 08:40:30 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 08:40:30 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 08:40:30 PM - helper - INFO - Created Directory of path : artifacts/model_evaluation]
+[25-04-2026 08:40:32 PM - helper - INFO - Json File Saved to the path: artifacts\model_evaluation\metrics.json]
+[25-04-2026 08:40:43 PM - model_evaluation_pipeline - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[25-04-2026 08:40:43 PM - model_evaluation_pipeline - ERROR - API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: '']
+[25-04-2026 08:40:43 PM - main - ERROR - API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\main.py", line 72, in <module>
+    obj.initiate_model_evaluation() # .main() call karna mat bhulna jo humne pipeline mein banaya hai
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\src\DATA_SCIENCE_Project\pipeline\model_evaluation_pipeline.py", line 20, in initiate_model_evaluation
+    raise e
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\src\DATA_SCIENCE_Project\pipeline\model_evaluation_pipeline.py", line 15, in initiate_model_evaluation
+    model_evaluate_component.log_into_mlflow()
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\src\DATA_SCIENCE_Project\components\model_evaluation_component.py", line 59, in log_into_mlflow
+    mlflow.sklearn.log_model(model,'model',registered_model_name="ElasticNet")
+  File "d:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\venv\lib\site-packages\mlflow\sklearn\__init__.py", line 478, in log_model
+    return Model.log(
+  File "d:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\venv\lib\site-packages\mlflow\models\model.py", line 1365, in log
+    registered_model = mlflow.tracking._model_registry.fluent._register_model(
+  File "d:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\venv\lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 179, in _register_model
+    raise e
+  File "d:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\venv\lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 168, in _register_model
+    create_model_response = client.create_registered_model(name)
+  File "d:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\venv\lib\site-packages\mlflow\tracking\client.py", line 3992, in create_registered_model
+    return self._get_registry_client().create_registered_model(
+  File "d:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\venv\lib\site-packages\mlflow\telemetry\track.py", line 24, in wrapper
+    return func(*args, **kwargs)
+  File "d:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\venv\lib\site-packages\mlflow\tracking\_model_registry\client.py", line 96, in create_registered_model
+    return self.store.create_registered_model(name, tags, description, deployment_job_id)
+  File "d:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\venv\lib\site-packages\mlflow\store\model_registry\rest_store.py", line 120, in create_registered_model
+    response_proto = self._call_endpoint(CreateRegisteredModel, req_body)
+  File "d:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\venv\lib\site-packages\mlflow\store\model_registry\rest_store.py", line 68, in _call_endpoint
+    return super()._call_endpoint(
+  File "d:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\venv\lib\site-packages\mlflow\store\model_registry\base_rest_store.py", line 42, in _call_endpoint
+    return call_endpoint(
+  File "d:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\venv\lib\site-packages\mlflow\utils\rest_utils.py", line 650, in call_endpoint
+    response = verify_rest_response(
+  File "d:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\venv\lib\site-packages\mlflow\utils\rest_utils.py", line 368, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: ''
+[25-04-2026 08:44:21 PM - main - INFO - >>>>>> stage Data Ingestion stage started <<<<<<]
+[25-04-2026 08:44:21 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 08:44:21 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 08:44:21 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 08:44:21 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 08:44:21 PM - helper - INFO - Created Directory of path : artifacts/data_ingestion]
+[25-04-2026 08:44:21 PM - data_ingestion_components - INFO - File already exists with size: 264426 bytes]
+[25-04-2026 08:44:21 PM - data_ingestion_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[25-04-2026 08:44:21 PM - main - INFO - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[25-04-2026 08:44:21 PM - main - INFO - >>>>>> stage Data Validation stage started <<<<<<]
+[25-04-2026 08:44:21 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 08:44:21 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 08:44:21 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 08:44:21 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 08:44:21 PM - helper - INFO - Created Directory of path : artifacts/data_validation]
+[25-04-2026 08:44:21 PM - data_validation_components - INFO - Data Validation completed. Status: True]
+[25-04-2026 08:44:21 PM - data_validation_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[25-04-2026 08:44:21 PM - main - INFO - >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[25-04-2026 08:44:21 PM - main - INFO - >>>>>> stage Data Transformation stage started <<<<<<]
+[25-04-2026 08:44:21 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 08:44:21 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 08:44:21 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 08:44:21 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 08:44:21 PM - helper - INFO - Created Directory of path : artifacts/data_transformation]
+[25-04-2026 08:44:21 PM - data_transformation_components - INFO - Splitted Data into Training and Test Data]
+[25-04-2026 08:44:21 PM - data_transformation_components - INFO - Train Data Shape: (3673, 12)]
+[25-04-2026 08:44:21 PM - data_transformation_components - INFO - Test Data Shape: (1225, 12)]
+[25-04-2026 08:44:21 PM - data_transformation_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[25-04-2026 08:44:21 PM - main - INFO - >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[25-04-2026 08:44:21 PM - main - INFO - >>>>>> stage Model Trainer stage started <<<<<<]
+[25-04-2026 08:44:21 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 08:44:21 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 08:44:21 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 08:44:21 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 08:44:21 PM - helper - INFO - Created Directory of path : artifacts/model_trainer]
+[25-04-2026 08:44:21 PM - model_trainer_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[25-04-2026 08:44:21 PM - main - INFO - >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[25-04-2026 08:44:21 PM - main - INFO - >>>>>> stage MODEL EVALUATION started <<<<<<]
+[25-04-2026 08:44:21 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 08:44:21 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 08:44:21 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 08:44:21 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 08:44:21 PM - helper - INFO - Created Directory of path : artifacts/model_evaluation]
+[25-04-2026 08:44:25 PM - model_evaluation_pipeline - ERROR - Are bhia kuch Error Aaa Gaya hai Yaar....]
+[25-04-2026 08:44:25 PM - model_evaluation_pipeline - ERROR - API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: '']
+[25-04-2026 08:44:25 PM - main - ERROR - API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\main.py", line 72, in <module>
+    obj.initiate_model_evaluation() # .main() call karna mat bhulna jo humne pipeline mein banaya hai
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\src\DATA_SCIENCE_Project\pipeline\model_evaluation_pipeline.py", line 20, in initiate_model_evaluation
+    raise e
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\src\DATA_SCIENCE_Project\pipeline\model_evaluation_pipeline.py", line 15, in initiate_model_evaluation
+    model_evaluate_component.log_into_mlflow()
+  File "D:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\src\DATA_SCIENCE_Project\components\model_evaluation_component.py", line 44, in log_into_mlflow
+    with mlflow.start_run():
+  File "d:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\venv\lib\site-packages\mlflow\tracking\fluent.py", line 644, in start_run
+    active_run_obj = client.create_run(
+  File "d:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\venv\lib\site-packages\mlflow\tracking\client.py", line 602, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "d:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\venv\lib\site-packages\mlflow\telemetry\track.py", line 30, in wrapper
+    result = func(*args, **kwargs)
+  File "d:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\venv\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 186, in create_run
+    return self.store.create_run(
+  File "d:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\venv\lib\site-packages\mlflow\store\tracking\rest_store.py", line 380, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "d:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\venv\lib\site-packages\mlflow\store\tracking\rest_store.py", line 243, in _call_endpoint
+    return call_endpoint(
+  File "d:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\venv\lib\site-packages\mlflow\utils\rest_utils.py", line 650, in call_endpoint
+    response = verify_rest_response(
+  File "d:\mlops\Wine-Quality-Data-Science-Projects-MLOPS-\venv\lib\site-packages\mlflow\utils\rest_utils.py", line 368, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+[25-04-2026 08:48:52 PM - main - INFO - >>>>>> stage Data Ingestion stage started <<<<<<]
+[25-04-2026 08:48:52 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 08:48:52 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 08:48:52 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 08:48:52 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 08:48:52 PM - helper - INFO - Created Directory of path : artifacts/data_ingestion]
+[25-04-2026 08:48:52 PM - data_ingestion_components - INFO - File already exists with size: 264426 bytes]
+[25-04-2026 08:48:52 PM - data_ingestion_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[25-04-2026 08:48:52 PM - main - INFO - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[25-04-2026 08:48:52 PM - main - INFO - >>>>>> stage Data Validation stage started <<<<<<]
+[25-04-2026 08:48:52 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 08:48:52 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 08:48:52 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 08:48:52 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 08:48:52 PM - helper - INFO - Created Directory of path : artifacts/data_validation]
+[25-04-2026 08:48:52 PM - data_validation_components - INFO - Data Validation completed. Status: True]
+[25-04-2026 08:48:52 PM - data_validation_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[25-04-2026 08:48:52 PM - main - INFO - >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[25-04-2026 08:48:52 PM - main - INFO - >>>>>> stage Data Transformation stage started <<<<<<]
+[25-04-2026 08:48:52 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 08:48:52 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 08:48:52 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 08:48:52 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 08:48:52 PM - helper - INFO - Created Directory of path : artifacts/data_transformation]
+[25-04-2026 08:48:52 PM - data_transformation_components - INFO - Splitted Data into Training and Test Data]
+[25-04-2026 08:48:52 PM - data_transformation_components - INFO - Train Data Shape: (3673, 12)]
+[25-04-2026 08:48:52 PM - data_transformation_components - INFO - Test Data Shape: (1225, 12)]
+[25-04-2026 08:48:52 PM - data_transformation_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[25-04-2026 08:48:52 PM - main - INFO - >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[25-04-2026 08:48:52 PM - main - INFO - >>>>>> stage Model Trainer stage started <<<<<<]
+[25-04-2026 08:48:52 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 08:48:52 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 08:48:52 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 08:48:52 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 08:48:52 PM - helper - INFO - Created Directory of path : artifacts/model_trainer]
+[25-04-2026 08:48:52 PM - model_trainer_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[25-04-2026 08:48:52 PM - main - INFO - >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[25-04-2026 08:48:52 PM - main - INFO - >>>>>> stage MODEL EVALUATION started <<<<<<]
+[25-04-2026 08:48:52 PM - helper - INFO - yaml file: config\config.yaml Loaded Sucessfully]
+[25-04-2026 08:48:52 PM - helper - INFO - yaml file: params.yaml Loaded Sucessfully]
+[25-04-2026 08:48:52 PM - helper - INFO - yaml file: schema.yaml Loaded Sucessfully]
+[25-04-2026 08:48:52 PM - helper - INFO - Created Directory of path : artifacts]
+[25-04-2026 08:48:52 PM - helper - INFO - Created Directory of path : artifacts/model_evaluation]
+[25-04-2026 08:48:55 PM - helper - INFO - Json File Saved to the path: artifacts\model_evaluation\metrics.json]
+[25-04-2026 08:49:12 PM - model_evaluation_pipeline - INFO - Pipeline Ran Sucesssfully ✅😭 ]
+[25-04-2026 08:49:12 PM - main - INFO - >>>>>> stage MODEL EVALUATION completed <<<<<<
+
+x==========x]

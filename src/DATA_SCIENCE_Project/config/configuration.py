@@ -1,7 +1,7 @@
 from src.DATA_SCIENCE_Project.constants import *
 from src.DATA_SCIENCE_Project.utils.helper import read_yaml,create_directories
 
-from src.DATA_SCIENCE_Project.entity.config_entity import (DataIngestionConfig,DataValidationConfig,DataTransformationConfig,ModelTrainerConfig) #Jaab bhut sara import karna hoga too line bhut bada na ban jaye too fir hum iasa karke () isme daal sakete hia jink o hume import karna hi 
+from src.DATA_SCIENCE_Project.entity.config_entity import (DataIngestionConfig,DataValidationConfig,DataTransformationConfig,ModelTrainerConfig,ModelEvaluationConfig) #Jaab bhut sara import karna hoga too line bhut bada na ban jaye too fir hum iasa karke () isme daal sakete hia jink o hume import karna hi 
 
 
 class ConfigurationManager:
@@ -71,6 +71,27 @@ class ConfigurationManager:
             target_column = schema.name
         )
         return model_train_config
+    
+            
+    def get_model_evaluation_config(self)-> ModelEvaluationConfig:
+        config =  self.config.model_evaluation
+        params = self.params.ElasticNet
+        schema = self.schema.TARGET_COLUMN
+        
+        create_directories([config.root_dir])
+        
+        model_eval_config  = ModelEvaluationConfig(
+            root_dir=config.root_dir,
+            test_path=config.test_path,
+            model_path = config.model_path,
+            all_params= params,
+            metric_file_path= config.metric_file_path,
+            target_column = schema.name,
+            mlflow_uri="https://dagshub.com/sahilkumarrock8084/Wine-Quality-Data-Science-Projects-MLOPS-.mlflow"
+        
+            
+        )
+        return model_eval_config
 
         
         

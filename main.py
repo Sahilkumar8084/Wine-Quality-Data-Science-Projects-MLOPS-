@@ -4,6 +4,9 @@ from src.DATA_SCIENCE_Project.pipeline.data_ingestion_pipeline import DataIngest
 from src.DATA_SCIENCE_Project.pipeline.data_validation_pipeline import DataValidationTrainingPipeline
 from src.DATA_SCIENCE_Project.pipeline.data_transformation_pipeline import DataTransformationTrainingPipeline
 from src.DATA_SCIENCE_Project.pipeline.model_trainer_pipeline import ModelTrainerTrainingPipeline
+from src.DATA_SCIENCE_Project.pipeline.model_evaluation_pipeline import ModelEvaluationComponent
+from src.DATA_SCIENCE_Project.pipeline.model_evaluation_pipeline import ModelEvaluationTrainingPipeline
+
 
 if __name__ == "__main__":
     try:
@@ -58,3 +61,18 @@ if __name__ == "__main__":
     except Exception as e:
         logger.exception(e)
         raise e
+    
+    
+    
+    try:
+        STAGE_NAME="MODEL EVALUATION"
+        logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+        
+        obj = ModelEvaluationTrainingPipeline()
+        obj.initiate_model_evaluation() # .main() call karna mat bhulna jo humne pipeline mein banaya hai
+        
+        logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+    except Exception as e:
+        logger.exception(e)
+        raise e
+        
