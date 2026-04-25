@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🥂 Quality Result - White Wine</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #f5e6d3 0%, #e8d5b7 25%, #faf3e0 50%, #f0e6d3 75%, #fff8e7 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            position: relative;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                radial-gradient(circle at 25% 35%, rgba(255, 215, 0, 0.06) 0%, transparent 50%),
+                radial-gradient(circle at 75% 65%, rgba(212, 175, 55, 0.05) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .result-container {
+            max-width: 850px;
+            width: 100%;
+            position: relative;
+            z-index: 1;
+        }
+
+        .result-card {
+            background: rgba(255, 255, 255, 0.75);
+            backdrop-filter: blur(20px);
+            border-radius: 35px;
+            padding: 50px 45px;
+            box-shadow: 
+                0 25px 70px rgba(0, 0, 0, 0.08),
+                0 1px 3px rgba(0, 0, 0, 0.05),
+                inset 0 1px 0 rgba(255, 255, 255, 0.9);
+            border: 1px solid rgba(212, 175, 55, 0.2);
+            text-align: center;
+        }
+
+        .champagne-pop {
+            font-size: 6rem;
+            animation: celebratePop 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+
+        @keyframes celebratePop {
+            0% { transform: scale(0) rotate(-180deg); opacity: 0; }
+            60% { transform: scale(1.2) rotate(10deg); opacity: 1; }
+            100% { transform: scale(1) rotate(0deg); opacity: 1; }
+        }
+
+        .header {
+            margin: 20px 0 35px;
+        }
+
+        .header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #c9a94e, #b8960f, #d4af37);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 10px;
+        }
+
+        .golden-divider {
+            width: 100px;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #d4af37, #c9a94e, transparent);
+            margin: 20px auto;
+        }
+
+        .quality-showcase {
+            background: linear-gradient(135deg, rgba(248, 244, 235, 0.9), rgba(255, 252, 245, 0.95));
+            border-radius: 25px;
+            padding: 40px 30px;
+            margin: 30px 0;
+            border: 1.5px solid rgba(212, 175, 55, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .quality-showcase::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(212, 175, 55, 0.03) 0%, transparent 70%);
+            animation: rotate 20s linear infinite;
+        }
+
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .score-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #d4af37, #c9a94e);
+            color: #fff;
+            padding: 25px 50px;
+            border-radius: 60px;
+            font-size: 4rem;
+            font-weight: 700;
+            font-family: 'Playfair Display', serif;
+            box-shadow: 
+                0 15px 40px rgba(212, 175, 55, 0.35),
+                0 0 0 4px rgba(212, 175, 55, 0.15);
+            position: relative;
+            z-index: 1;
+            letter-spacing: 2px;
+        }
+
+        .quality-label {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2rem;
+            color: #4a3728;
+            margin-top: 25px;
+            font-weight: 600;
+            position: relative;
+            z-index: 1;
+        }
+
+        .quality-desc {
+            color: #8b7355;
+            font-size: 1.1rem;
+            margin-top: 12px;
+            font-style: italic;
+            font-weight: 300;
+            letter-spacing: 0.5px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .stars-display {
+            font-size: 3rem;
+            margin: 25px 0;
+            letter-spacing: 8px;
+            position: relative;
+            z-index: 1;
+            animation: shimmer 3s ease-in-out infinite;
+        }
+
+        @keyframes shimmer {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.8; }
+        }
+
+        .details-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+            margin: 35px 0;
+            text-align: left;
+        }
+
+        .detail-card {
+            background: rgba(248, 244, 235, 0.7);
+            padding: 16px;
+            border-radius: 16px;
+            border: 1px solid rgba(212, 175, 55, 0.2);
+            backdrop-filter: blur(5px);
+            transition: all 0.3s ease;
+        }
+
+        .detail-card:hover {
+            background: rgba(255, 255, 255, 0.9);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+            border-color: rgba(212, 175, 55, 0.4);
+        }
+
+        .detail-key {
+            color: #8b7355;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 500;
+        }
+
+        .detail-val {
+            color: #4a3728;
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-top: 6px;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .recommendation {
+            background: linear-gradient(135deg, rgba(248, 244, 235, 0.9), rgba(255, 252, 245, 0.95));
+            padding: 28px;
+            border-radius: 20px;
+            margin-top: 30px;
+            border: 1px solid rgba(212, 175, 55, 0.25);
+        }
+
+        .recommendation h3 {
+            color: #4a3728;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            margin-bottom: 12px;
+        }
+
+        .recommendation p {
+            color: #6b5b4f;
+            font-style: italic;
+            line-height: 1.8;
+            font-weight: 300;
+        }
+
+        .back-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #d4af37, #c9a94e);
+            color: #fff;
+            padding: 14px 45px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-family: 'Poppins', sans-serif;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            transition: all 0.4s ease;
+            margin-top: 25px;
+            box-shadow: 0 8px 25px rgba(212, 175, 55, 0.3);
+            border: none;
+            font-size: 1rem;
+        }
+
+        .back-btn:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 15px 35px rgba(212, 175, 55, 0.4);
+            color: #fff;
+        }
+
+        @media (max-width: 600px) {
+            .result-card {
+                padding: 30px 20px;
+            }
+            
+            .score-badge {
+                font-size: 3rem;
+                padding: 20px 35px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="result-container">
+        <div class="result-card">
+            
+            <div class="header">
+                <h1>Quality Analysis Complete</h1>
+                <div class="golden-divider"></div>
+            </div>
+
+            <div class="quality-showcase">
+                <p style="color: #8b7355; margin-bottom: 15px; font-weight: 300; letter-spacing: 1px;">PREDICTED QUALITY SCORE</p>
+                <!-- <div class="score-badge">{{ prediction }}</div> -->
+<div class="score-badge">{{ prediction }}/10</div>
+            </div>
+
+            <div class="details-section">
+                {% if features %}
+                    {% for key, value in features.items() %}
+                    <div class="detail-card">
+                        <div class="detail-key">{{ key.replace('_', ' ').title() }}</div>
+                        <div class="detail-val">{{ "%.3f"|format(value) }}</div>
+                    </div>
+                    {% endfor %}
+                {% endif %}
+            </div>
+
+
+               
+            </div>
+
+            <a href="{{ url_for('index') }}" class="back-btn">← Analyze Another Wine</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🥂 White Wine Quality Predictor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #f5e6d3 0%, #e8d5b7 25%, #faf3e0 50%, #f0e6d3 75%, #fff8e7 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        /* Floating particles */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                radial-gradient(circle at 20% 30%, rgba(255, 215, 0, 0.08) 0%, transparent 50%),
+                radial-gradient(circle at 80% 60%, rgba(192, 192, 192, 0.08) 0%, transparent 50%),
+                radial-gradient(circle at 50% 80%, rgba(245, 222, 179, 0.1) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .container {
+            max-width: 1100px;
+            width: 100%;
+            position: relative;
+            z-index: 1;
+        }
+
+        .main-card {
+            background: rgba(255, 255, 255, 0.75);
+            backdrop-filter: blur(20px);
+            border-radius: 30px;
+            padding: 45px 40px;
+            box-shadow: 
+                0 20px 60px rgba(0, 0, 0, 0.08),
+                0 1px 3px rgba(0, 0, 0, 0.05),
+                inset 0 1px 0 rgba(255, 255, 255, 0.9);
+            border: 1px solid rgba(212, 175, 55, 0.2);
+        }
+
+        .header-section {
+            text-align: center;
+            margin-bottom: 45px;
+            position: relative;
+        }
+
+        .champagne-icon {
+            font-size: 4.5rem;
+            display: inline-block;
+            animation: gentleFloat 4s ease-in-out infinite;
+            filter: drop-shadow(0 8px 15px rgba(212, 175, 55, 0.3));
+        }
+
+        @keyframes gentleFloat {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            25% { transform: translateY(-10px) rotate(-2deg); }
+            75% { transform: translateY(-5px) rotate(2deg); }
+        }
+
+        .title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.8rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #c9a94e, #b8960f, #d4af37);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin: 15px 0 10px;
+            letter-spacing: 1px;
+        }
+
+        .subtitle {
+            color: #8b7355;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
+            font-size: 1.1rem;
+            letter-spacing: 1.5px;
+            font-style: italic;
+        }
+
+        .elegant-divider {
+            width: 120px;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #d4af37, #c9a94e, transparent);
+            margin: 25px auto;
+            border-radius: 5px;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 22px;
+            margin-bottom: 30px;
+        }
+
+        .form-group {
+            position: relative;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #6b5b4f;
+            font-weight: 500;
+            font-size: 0.88rem;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .form-group label .icon {
+            margin-right: 6px;
+            font-size: 0.95rem;
+        }
+
+        .input-wrapper {
+            position: relative;
+            background: rgba(248, 244, 235, 0.8);
+            border-radius: 14px;
+            border: 1.5px solid rgba(212, 175, 55, 0.25);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            overflow: hidden;
+        }
+
+        .input-wrapper::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.05), transparent);
+            transition: left 0.6s;
+        }
+
+        .input-wrapper:hover::before {
+            left: 100%;
+        }
+
+        .input-wrapper:focus-within {
+            border-color: #d4af37;
+            box-shadow: 
+                0 0 20px rgba(212, 175, 55, 0.15),
+                0 4px 12px rgba(0, 0, 0, 0.05);
+            transform: translateY(-2px);
+        }
+
+        .input-wrapper input {
+            width: 100%;
+            padding: 13px 18px;
+            background: transparent;
+            border: none;
+            font-size: 0.95rem;
+            color: #4a3728;
+            font-family: 'Poppins', sans-serif;
+            letter-spacing: 0.5px;
+            outline: none;
+            position: relative;
+            z-index: 1;
+        }
+
+        .input-wrapper input::placeholder {
+            color: rgba(139, 115, 85, 0.45);
+            font-style: italic;
+            font-weight: 300;
+        }
+
+        .submit-section {
+            text-align: center;
+            margin-top: 35px;
+        }
+
+        .predict-btn {
+            background: linear-gradient(135deg, #d4af37 0%, #c9a94e 50%, #b8960f 100%);
+            color: #fff;
+            border: none;
+            padding: 16px 55px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            font-family: 'Poppins', sans-serif;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            box-shadow: 
+                0 8px 25px rgba(212, 175, 55, 0.3),
+                0 2px 5px rgba(0, 0, 0, 0.05);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .predict-btn::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+
+        .predict-btn:hover {
+            transform: translateY(-4px);
+            box-shadow: 
+                0 15px 35px rgba(212, 175, 55, 0.4),
+                0 4px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        .predict-btn:hover::after {
+            width: 300px;
+            height: 300px;
+        }
+
+        .predict-btn:active {
+            transform: translateY(-2px);
+        }
+
+        .feature-cloud {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 35px;
+            padding-top: 25px;
+            border-top: 1px solid rgba(212, 175, 55, 0.2);
+        }
+
+        .feature-badge {
+            background: linear-gradient(135deg, rgba(245, 222, 179, 0.5), rgba(255, 248, 231, 0.8));
+            padding: 8px 18px;
+            border-radius: 25px;
+            font-size: 0.82rem;
+            color: #6b5b4f;
+            border: 1px solid rgba(212, 175, 55, 0.25);
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(5px);
+        }
+
+        .feature-badge:hover {
+            background: rgba(212, 175, 55, 0.15);
+            border-color: #d4af37;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(212, 175, 55, 0.15);
+        }
+
+        @media (max-width: 768px) {
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .main-card {
+                padding: 30px 25px;
+            }
+            
+            .title {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main-card">
+            <div class="header-section">
+                <div class="champagne-icon">🥂</div>
+                <h1 class="title">White Wine Quality</h1>
+                <p class="subtitle">— Predict the Essence of Elegance —</p>
+                <div class="elegant-divider"></div>
+            </div>
+
+            <form action="/predict" method="post">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label><span class="icon">🧪</span>Fixed Acidity</label>
+                        <div class="input-wrapper">
+                            <input type="text" name="fixed_acidity" id="fixed_acidity" placeholder="e.g., 7.4" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label><span class="icon">🍋</span>Volatile Acidity</label>
+                        <div class="input-wrapper">
+                            <input type="text" name="volatile_acidity" id="volatile_acidity" placeholder="e.g., 0.7" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label><span class="icon">🍊</span>Citric Acid</label>
+                        <div class="input-wrapper">
+                            <input type="text" name="citric_acid" id="citric_acid" placeholder="e.g., 0.0" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label><span class="icon">🍬</span>Residual Sugar</label>
+                        <div class="input-wrapper">
+                            <input type="text" name="residual_sugar" id="residual_sugar" placeholder="e.g., 1.9" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label><span class="icon">🧂</span>Chlorides</label>
+                        <div class="input-wrapper">
+                            <input type="text" name="chlorides" id="chlorides" placeholder="e.g., 0.076" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label><span class="icon">🆓</span>Free Sulfur Dioxide</label>
+                        <div class="input-wrapper">
+                            <input type="text" name="free_sulfur_dioxide" id="free_sulfur_dioxide" placeholder="e.g., 11" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label><span class="icon">📊</span>Total Sulfur Dioxide</label>
+                        <div class="input-wrapper">
+                            <input type="text" name="total_sulfur_dioxide" id="total_sulfur_dioxide" placeholder="e.g., 34" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label><span class="icon">⚖️</span>Density</label>
+                        <div class="input-wrapper">
+                            <input type="text" name="density" id="density" placeholder="e.g., 0.9978" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label><span class="icon">🧪</span>pH</label>
+                        <div class="input-wrapper">
+                            <input type="text" name="pH" id="pH" placeholder="e.g., 3.51" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label><span class="icon">💎</span>Sulphates</label>
+                        <div class="input-wrapper">
+                            <input type="text" name="sulphates" id="sulphates" placeholder="e.g., 0.56" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label><span class="icon">🍾</span>Alcohol</label>
+                        <div class="input-wrapper">
+                            <input type="text" name="alcohol" id="alcohol" placeholder="e.g., 9.4" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="submit-section">
+                    <button type="submit" class="predict-btn">✨ Predict Quality ✨</button>
+                </div>
+            </form>
+
+            <div class="feature-cloud">
+                <span class="feature-badge">🧪 Fixed Acidity</span>
+                <span class="feature-badge">🍋 Volatile Acidity</span>
+                <span class="feature-badge">🍊 Citric Acid</span>
+                <span class="feature-badge">🍬 Residual Sugar</span>
+                <span class="feature-badge">🧂 Chlorides</span>
+                <span class="feature-badge">🆓 Free SO₂</span>
+                <span class="feature-badge">📊 Total SO₂</span>
+                <span class="feature-badge">⚖️ Density</span>
+                <span class="feature-badge">🧪 pH</span>
+                <span class="feature-badge">💎 Sulphates</span>
+                <span class="feature-badge">🍾 Alcohol</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
